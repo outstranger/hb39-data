@@ -1,0 +1,1356 @@
+[  {
+    "id": "TB102",
+    "theme": "Technique",
+    "text": "Quelle est la résistance d'une bobine de fil de cuivre si le fil utilisé a une longueur de $1,8~m$ et un diamètre de $0,2~mm$ ?",
+    "options": [
+      "$0,05~\\Omega$",
+      "$1~\\Omega$",
+      "$1,003~\\Omega$",
+      "$56~\\Omega$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Section $S = \\pi \\times r^2 = 0,0314~mm^2$. Résistance $R = \\rho \\times L / S \\approx 0,0175 \\times 1,8 / 0,0314 \\approx 1~\\Omega$."
+  },
+  {
+    "id": "TB111",
+    "theme": "Technique",
+    "text": "Dans une diode à semiconducteur, comment se forme la zone de déplétion ?",
+    "options": [
+      "Par migration des atomes dans les parties N et P",
+      "Par recombinaison des porteurs de charge à la jonction créant une zone isolante",
+      "Par l'ajout d'une couche de silicium pur",
+      "Par l'application d'une tension inverse uniquement"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 150' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='40' width='150' height='70' fill='#fee2e2' stroke='#dc2626'/><rect x='200' y='40' width='150' height='70' fill='#dcfce7' stroke='#16a34a'/><rect x='180' y='40' width='40' height='70' fill='#f1f5f9' stroke='#94a3b8'/><text x='125' y='85' text-anchor='middle' font-weight='bold' fill='#991b1b'>P</text><text x='275' y='85' text-anchor='middle' font-weight='bold' fill='#14532d'>N</text><text x='200' y='130' text-anchor='middle' font-size='12' fill='#64748b'>Zone de déplétion (Isolante)</text></svg>",
+    "explanation": "À la jonction, les électrons de la zone N et les trous de la zone P se recombinent, créant une barrière dépourvue de porteurs libres."
+  },
+  {
+    "id": "TB204",
+    "theme": "Technique",
+    "text": "La tension en circuit ouvert d'une source de tension continue est de $13,5~V$. Si la source délivre un courant de $1~A$, la tension aux bornes chute à $12,5~V$. Quel est le rendement ?",
+    "options": [
+      "$100\\%$",
+      "$7,5\\%$",
+      "$92,6\\%$",
+      "$13,5\\%$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Le rendement $\\eta$ est le rapport entre la tension en charge et la tension à vide : $\\eta = (U_{charge} / U_{vide}) \\times 100 = (12,5 / 13,5) \\times 100 \\approx 92,6\\%$."
+  },
+  {
+    "id": "TB205",
+    "theme": "Technique",
+    "text": "La tension en circuit ouvert d'une source de tension continue est de $13,5~V$. Si la source débite un courant de $2~A$, sa tension chute à $13~V$. Quel est le rendement ?",
+    "options": [
+      "$100\\%$",
+      "$96,3\\%$",
+      "$3,7\\%$",
+      "$27\\%$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Rendement $\\eta = (13 / 13,5) \\times 100 \\approx 96,3\\%$. Plus la chute de tension est faible par rapport à la tension à vide, meilleur est le rendement."
+  },
+  {
+    "id": "TB206",
+    "theme": "Technique",
+    "text": "La tension à vide d'une source est de $5~V$. Si l'on y connecte une résistance de $1,2~\\Omega$, la tension aux bornes chute à $4,8~V$. Quelle est la résistance interne de la source ?",
+    "options": [
+      "$0,2~\\Omega$",
+      "$0,05~\\Omega$",
+      "$8,2~\\Omega$",
+      "$0,25~\\Omega$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "1. Courant $I = U_{charge} / R_{L} = 4,8 / 1,2 = 4~A$. 2. Chute de tension $\\Delta U = 5 - 4,8 = 0,2~V$. 3. Résistance interne $R_{i} = \\Delta U / I = 0,2 / 4 = 0,05~\\Omega$."
+  },
+  {
+    "id": "TB207",
+    "theme": "Technique",
+    "text": "Quelle doit être la relation entre la résistance interne $R_{i}$ et la résistance de charge $R_{L}$ pour obtenir une adaptation en puissance ?",
+    "options": [
+      "$R_{L} = 1/R_{i}$",
+      "$R_{L} \\ll R_{i}$",
+      "$R_{L} \\gg R_{i}$",
+      "$R_{L} = R_{i}$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='30' width='120' height='60' fill='#eff6ff' stroke='#3b82f6' stroke-width='2' rx='10'/><rect x='230' y='30' width='120' height='60' fill='#f0fdf4' stroke='#16a34a' stroke-width='2' rx='10'/><text x='110' y='65' text-anchor='middle' font-weight='bold' fill='#1e40af'>Source (Ri)</text><text x='290' y='65' text-anchor='middle' font-weight='bold' fill='#166534'>Charge (RL)</text><path d='M170 60 H230' stroke='#94a3b8' stroke-width='4' marker-end='url(#arrow)'/><text x='200' y='110' text-anchor='middle' font-size='14' font-weight='black' fill='#1e293b'>Ri = RL</text></svg>",
+    "explanation": "Pour transférer le maximum de puissance d'une source à une charge, l'impédance de la charge doit être égale à la résistance interne de la source."
+  },
+  {
+    "id": "TB210",
+    "theme": "Technique",
+    "text": "Quelles caractéristiques doivent avoir les sources de courant et de tension idéales ?",
+    "options": [
+      "Tension : $R_{i}$ élevée / Courant : $R_{i}$ faible",
+      "Courant et tension : $R_{i}$ la plus faible possible",
+      "Tension : $R_{i}$ faible / Courant : $R_{i}$ élevée",
+      "Courant et tension : $R_{i}$ la plus élevée possible"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Une source de tension idéale a une résistance interne nulle ($0~\\Omega$). Une source de courant idéale a une résistance interne infinie (pour que le débit ne dépende pas de la charge)."
+  },
+  {
+    "id": "TB301",
+    "theme": "Technique",
+    "text": "Il y a $300~V$ sur les plaques d'un condensateur enroulé avec un diélectrique de $0,15~mm$ d'épaisseur. Quelle est la valeur du champ électrique ?",
+    "options": [
+      "$200~V/m$",
+      "$2000~kV/m$",
+      "$200~kV/m$",
+      "$2000~V/m$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 150' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='30' width='300' height='20' fill='#94a3b8'/><rect x='50' y='100' width='300' height='20' fill='#94a3b8'/><rect x='50' y='50' width='300' height='50' fill='#fef9c3' opacity='0.5'/><text x='200' y='80' text-anchor='middle' font-weight='bold' fill='#854d0e'>Diélectrique : 0.15 mm</text><path d='M360 40 L380 40 V110 L360 110' fill='none' stroke='#1e293b'/><text x='390' y='75' text-anchor='start' font-size='12'>300V</text></svg>",
+    "explanation": "$E = U / d = 300 / 0,00015~m = 2\\,000\\,000~V/m = 2000~kV/m$."
+  },
+  {
+    "id": "TB302",
+    "theme": "Technique",
+    "text": "Une batterie a une tension de $9~V$ entre ses bornes distantes de $0,6~cm$. Quelle est la valeur du champ électrique ?",
+    "options": [
+      "$\\approx 5,4~V/m$",
+      "$\\approx 150~V/m$",
+      "$\\approx 15~V/m$",
+      "$\\approx 1500~V/m$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "$E = U / d$. Attention aux unités : $0,6~cm = 0,006~m$. Donc $E = 9 / 0,006 = 1500~V/m$."
+  },
+  {
+    "id": "TB304",
+    "theme": "Technique",
+    "text": "Un film PTFE de $0,15~mm$ a une rigidité diélectrique de $400~kV/cm$. Quelle est la tension maximale admissible avant claquage ?",
+    "options": [
+      "$6~kV$",
+      "$60~kV$",
+      "$600~V$",
+      "$2,6~kV$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Tension $U = E_{max} \\times d$. On convertit $0,15~mm$ en $cm$ ($0,015~cm$). $U = 400~kV/cm \\times 0,015~cm = 6~kV$."
+  },
+  {
+    "id": "TB401",
+    "theme": "Technique",
+    "text": "Un noyau toroïdal ($D_{moyen} = 2,6~cm$) comporte 6 spires. Quelle est l'intensité du champ magnétique $H$ pour un courant de $2,5~A$ ?",
+    "options": [
+      "$577~A/m$",
+      "$184~A/m$",
+      "$1,8~A/m$",
+      "$5,8~A/m$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "$H = (N \\times I) / L$. La circonférence $L = \\pi \\times D = 3,14 \\times 0,026~m \\approx 0,0816~m$. $H = (6 \\times 2,5) / 0,0816 \\approx 183,8~A/m$. On arrondit à $184~A/m$."
+  },
+  {
+    "id": "TB402",
+    "theme": "Technique",
+    "text": "Une bobine sans noyau produit un champ de $200~A/m$. Quelle est la densité du flux magnétique $B$ ?",
+    "options": [
+      "$0,25~mT$",
+      "$2,5~mT$",
+      "$2,5~T$",
+      "$0,25~T$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Pour l'air, $B = \\mu_{0} \\times H$ avec $\\mu_{0} \\approx 1,256 \\times 10^{-6}$. $B = 1,256 \\times 10^{-6} \\times 200 = 0,0002512~T = 0,25~mT$."
+  },
+  {
+    "id": "TB403",
+    "theme": "Technique",
+    "text": "Quel effet réduit l'inductance d'une bobine parcourue par un courant de haute fréquence quand un noyau de cuivre ou d'aluminium y est inséré ?",
+    "options": [
+      "Le cuivre et l'aluminium sont non-magnétiques et n'ont aucune influence",
+      "Le champ magnétique HF ne peut pas pénétrer le noyau, ce qui réduit la section du champ (effet de blindage/courants de Foucault)",
+      "Le cuivre et l'aluminium sont diamagnétiques, ce qui affaiblit le champ",
+      "Le métal conducteur court-circuite le champ magnétique"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "À haute fréquence, les courants de Foucault induits à la surface du noyau métallique (cuivre/alu) créent un contre-champ qui empêche le flux de pénétrer le noyau, réduisant ainsi l'inductance effective."
+  },
+  {
+    "id": "TB406",
+    "theme": "Technique",
+    "text": "Lorsqu'un courant circule dans un conducteur droit, il s'établit :",
+    "options": [
+      "Un champ magnétique uniforme autour du conducteur",
+      "Un champ électrique uniforme autour du conducteur",
+      "Un champ magnétique constitué de cercles concentriques autour du conducteur",
+      "Un champ électrique constitué de cercles concentriques"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><line x1='100' y1='20' x2='100' y2='130' stroke='#1e293b' stroke-width='4'/><ellipse cx='100' cy='75' rx='40' ry='15' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='4'/><ellipse cx='100' cy='75' rx='60' ry='22' fill='none' stroke='#3b82f6' stroke-width='2'/><text x='110' y='35' font-size='10' font-weight='bold'>Courant I</text><text x='150' y='95' font-size='10' fill='#3b82f6' font-weight='bold'>Champ H</text></svg>",
+    "explanation": "Selon la règle du tire-bouchon (ou de la main droite), un courant circulant dans un fil produit un champ magnétique dont les lignes de force sont des cercles centrés sur le fil."
+  },
+  {
+    "id": "TB407",
+    "theme": "Technique",
+    "text": "Sur le schéma d'une antenne verticale, comment s'appellent les lignes de champ marquées X (cercles horizontaux entourant le brin) ?",
+    "options": [
+      "Lignes de champ magnétique",
+      "Lignes de champ verticales",
+      "Lignes de champ électrique",
+      "Lignes de champ radiales"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Autour d'un radiateur vertical, le champ électrique $E$ est vertical (parallèle au brin) et le champ magnétique $H$ est horizontal (cercles concentriques)."
+  },
+  {
+    "id": "TB503",
+    "theme": "Technique",
+    "text": "La polarisation d'une onde électromagnétique est déterminée par :",
+    "options": [
+      "La direction du champ magnétique (vecteur $H$)",
+      "La densité de puissance au point d'alimentation",
+      "La direction de propagation (vecteur de Poynting)",
+      "La direction du champ électrique (vecteur $E$)"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Par convention internationale, la polarisation d'une onde radio est définie par l'orientation du vecteur champ électrique $E$ par rapport à la surface de la Terre."
+  },
+  {
+    "id": "TB506",
+    "theme": "Technique",
+    "text": "L'angle entre les composants $E$ (électrique) et $H$ (magnétique) d'une onde en champ lointain est de :",
+    "options": [
+      "$90^{\\circ}$",
+      "$360^{\\circ}$",
+      "$180^{\\circ}$",
+      "$45^{\\circ}$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M40 110 L40 30 M40 110 L140 110 M40 110 L100 60' stroke='#94a3b8' fill='none'/><path d='M40 110 L40 50' stroke='#ef4444' stroke-width='3' marker-end='url(#arrow)'/><path d='M40 110 L100 110' stroke='#3b82f6' stroke-width='3'/><text x='35' y='45' fill='#ef4444' font-weight='bold'>E</text><text x='110' y='115' fill='#3b82f6' font-weight='bold'>H</text><rect x='40' y='100' width='10' height='10' fill='none' stroke='#1e293b'/></svg>",
+    "explanation": "Dans le vide ou l'air, les vecteurs $E$ et $H$ sont perpendiculaires entre eux et perpendiculaires à la direction de propagation."
+  },
+  {
+    "id": "TB510",
+    "theme": "Technique",
+    "text": "Une antenne dipôle verticale est alimentée avec une puissance de $10~W$. Que vaut le champ électrique à $10~m$ de distance en espace libre ?",
+    "options": [
+      "$8,9~V/m$",
+      "$2,2~V/m$",
+      "$5,5~V/m$",
+      "$0,4~V/m$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Formule : $E = \\frac{\\sqrt{30 \\cdot P \\cdot G}}{d}$. Pour un dipôle, $G \\approx 1,64$ (linéaire). $E = \\frac{\\sqrt{30 \\cdot 10 \\cdot 1,64}}{10} = \\frac{\\sqrt{492}}{10} \\approx 2,22~V/m$."
+  },
+  {
+    "id": "TB511",
+    "theme": "Technique",
+    "text": "Une antenne Yagi avec un gain de $12,15~dBi$ est alimentée avec $250~W$. Quelle est la valeur du champ électrique à $30~m$ ?",
+    "options": [
+      "$353~V/m$",
+      "$11,8~V/m$",
+      "$15,1~V/m$",
+      "$9,2~V/m$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "1. Gain linéaire : $10^{(12,15/10)} \\approx 16,4$. 2. $E = \\frac{\\sqrt{30 \\cdot 250 \\cdot 16,4}}{30} = \\frac{\\sqrt{123000}}{30} \\approx \\frac{350,7}{30} \\approx 11,69~V/m$. On sélectionne la réponse la plus proche : $11,8~V/m$."
+  },
+  {
+    "id": "TB604",
+    "theme": "Technique",
+    "text": "Quelle est la fréquence du signal sur cet oscillogramme ($3~\\mu s/Div$, une période occupe $4$ divisions) ?",
+    "options": [
+      "$83,3~MHz$",
+      "$8,3~MHz$",
+      "$833,3~kHz$",
+      "$83,3~kHz$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='10' width='180' height='100' fill='#064e3b' rx='5'/><path d='M10 60 H190 M100 10 V110' stroke='#065f46' stroke-width='1'/><path d='M20 60 Q 42.5 10 65 60 T 110 60 T 155 60' fill='none' stroke='#4ade80' stroke-width='2'/><text x='100' y='118' text-anchor='middle' font-size='8' fill='#ffffff'>Une période = 4 carreaux</text></svg>",
+    "explanation": "Période $T = 4~div \\times 3~\\mu s/div = 12~\\mu s$. Fréquence $f = 1 / T = 1 / (12 \\times 10^{-6}) \\approx 83\\,333~Hz = 83,3~kHz$."
+  },
+  {
+    "id": "TB605",
+    "theme": "Technique",
+    "text": "Quelle est la fréquence du signal si la base de temps est réglée sur $0,03~\\mu s/Div$ (période sur $4$ divisions) ?",
+    "options": [
+      "$833~kHz$",
+      "$8,33~MHz$",
+      "$8,33~kHz$",
+      "$16,7~MHz$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "$T = 4 \\times 0,03~\\mu s = 0,12~\\mu s$. $f = 1 / 0,12 \\times 10^{6} \\approx 8,33~MHz$."
+  },
+  {
+    "id": "TB606",
+    "theme": "Technique",
+    "text": "Quelle est la fréquence du signal sur cet oscillogramme ($5~ms/Div$, période sur $4$ divisions) ?",
+    "options": [
+      "$100~Hz$",
+      "$1000~Hz$",
+      "$50~Hz$",
+      "$500~Hz$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "$T = 4 \\times 5~ms = 20~ms = 0,02~s$. $f = 1 / 0,02 = 50~Hz$ (fréquence typique du secteur)."
+  },
+  {
+    "id": "TB919",
+    "theme": "Technique",
+    "text": "Un amplificateur HF est alimenté sous $12,5~V$ continu. Si la puissance de sortie est de $90~W$ et que le courant consommé est de $16~A$, quel est le rendement de l'amplificateur ?",
+    "options": [
+      "$55\\%$",
+      "$45\\%$",
+      "$100\\%$",
+      "$222\\%$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "1. Puissance consommée $P_{in} = U \\times I = 12,5 \\times 16 = 200~W$. 2. Rendement $\\eta = (P_{out} / P_{in}) \\times 100 = (90 / 200) \\times 100 = 45\\%$."
+  },
+  {
+    "id": "TB920",
+    "theme": "Technique",
+    "text": "Il entre $100~W$ dans une ligne de transmission. À l'autre extrémité, la puissance est de $50~W$ (avec $ROS = 1$). Quelle est l'atténuation du câble ?",
+    "options": [
+      "$6~dBm$",
+      "$3~dB$",
+      "$-3~dB$",
+      "$-6~dB$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Un rapport de puissance de 2 (division par 2) correspond à une perte de $3~dB$. L'atténuation est donc de $3~dB$."
+  },
+  {
+    "id": "TB921",
+    "theme": "Technique",
+    "text": "Un voltmètre et un ampèremètre affichent chacun une valeur $5\\%$ trop basse par rapport à la réalité. La puissance électrique calculée ($P = U \\times I$) sera :",
+    "options": [
+      "$5\\%$ trop basse",
+      "$10,25\\%$ trop élevée",
+      "$5\\%$ trop élevée",
+      "$9,75\\%$ trop basse"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Si $U$ et $I$ sont à $0,95$ de leur valeur, $P = 0,95 \\times 0,95 = 0,9025$. L'erreur est de $1 - 0,9025 = 0,0975$, soit $9,75\\%$ trop basse."
+  },
+  {
+    "id": "TC101",
+    "theme": "Technique",
+    "text": "Quel circuit permet de déterminer la valeur d'une résistance $R$ au moyen de la loi d'Ohm ?",
+    "options": [
+      "Voltmètre en série, Ampèremètre en parallèle",
+      "Deux voltmètres en parallèle",
+      "Ampèremètre en série avec R, Voltmètre en parallèle sur R",
+      "Voltmètre en série avec la source"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "imageSVG": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='40' width='30' height='70' fill='none' stroke='#1e293b' stroke-width='2'/><text x='25' y='80' font-size='20'>+</text><line x1='50' y1='40' x2='120' y2='40' stroke='#1e293b' stroke-width='2'/><circle cx='140' cy='40' r='20' fill='#f1f5f9' stroke='#1e293b' stroke-width='2'/><text x='140' y='45' text-anchor='middle' font-weight='bold'>A</text><line x1='160' y1='40' x2='240' y2='40' stroke='#1e293b' stroke-width='2'/><rect x='240' y='30' width='40' height='100' fill='#eff6ff' stroke='#3b82f6' stroke-width='2'/><text x='260' y='85' text-anchor='middle' font-weight='bold' fill='#1e40af'>R</text><line x1='240' y1='130' x2='50' y2='130' stroke='#1e293b' stroke-width='2'/><line x1='220' y1='40' x2='220' y2='80' stroke='#1e293b' stroke-width='1'/><circle cx='220' cy='100' r='20' fill='#fdf2f8' stroke='#db2777' stroke-width='2'/><text x='220' y='105' text-anchor='middle' font-weight='bold' fill='#9d174d'>V</text><line x1='220' y1='120' x2='220' y2='130' stroke='#1e293b' stroke-width='1'/></svg>",
+    "explanation": "L'ampèremètre doit mesurer le courant traversant la résistance (en série) et le voltmètre doit mesurer la tension à ses bornes (en parallèle)."
+  },
+  {
+    "id": "TC202",
+    "theme": "Technique",
+    "text": "Quelle est l'évolution de la tension aux bornes d'un condensateur déchargé lorsqu'il est connecté à une source via une résistance ?",
+    "options": [
+      "La tension chute brutalement",
+      "La tension augmente de façon exponentielle vers la valeur de la source",
+      "La tension reste constante",
+      "La tension augmente de façon linéaire"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><path d='M20 100 L180 100 M20 100 L20 20' stroke='#94a3b8' fill='none'/><path d='M20 100 Q 40 30 180 30' fill='none' stroke='#3b82f6' stroke-width='3'/><text x='100' y='115' text-anchor='middle' font-size='10'>Temps (t)</text><text x='10' y='60' text-anchor='middle' font-size='10' transform='rotate(-90 10 60)'>Tension (U)</text></svg>",
+    "explanation": "C'est la courbe de charge capacitive. La tension $U_{c}$ tend vers $U_{source}$ suivant la formule $U_{c} = U \\cdot (1 - e^{-t/RC})$."
+  },
+  {
+    "id": "TC203",
+    "theme": "Technique",
+    "text": "Quel est le déphasage entre courant et tension dans un condensateur sans pertes ?",
+    "options": [
+      "La tension est en avance de $90^{\\circ}$",
+      "Le courant est en avance de $90^{\\circ}$",
+      "Le courant est en avance de $45^{\\circ}$",
+      "La tension et le courant sont en phase"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Dans une capacité, le courant 'précède' la tension. On utilise souvent le moyen mnémotechnique ICE (I - courant, C - capacité, E - tension)."
+  },
+  {
+    "id": "TC205",
+    "theme": "Technique",
+    "text": "Quelle est la réactance ($X_{c}$) d'un condensateur de $10~pF$ à $100~MHz$ ?",
+    "options": [
+      "$159~\\Omega$",
+      "$31,8~\\Omega$",
+      "$1,59~k\\Omega$",
+      "$318~\\Omega$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "$X_{c} = 1 / (2 \\cdot \\pi \\cdot f \\cdot C) = 1 / (2 \\cdot 3,14 \\cdot 100 \\cdot 10^{6} \\cdot 10 \\cdot 10^{-12}) \\approx 159~\\Omega$."
+  },
+  {
+    "id": "TC206",
+    "theme": "Technique",
+    "text": "Une tension de $16~V$ à $50~Hz$ est appliquée sur un condensateur. On mesure un courant de $32~mA$. Quelle est la valeur du condensateur ?",
+    "options": [
+      "$4,5~\\mu F$",
+      "$0,45~\\mu F$",
+      "$0,637~\\mu F$",
+      "$6,37~\\mu F$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "1. $X_{c} = U / I = 16 / 0,032 = 500~\\Omega$. 2. $C = 1 / (2 \\cdot \\pi \\cdot f \\cdot X_{c}) = 1 / (2 \\cdot 3,14 \\cdot 50 \\cdot 500) \\approx 6,37 \\cdot 10^{-6}~F = 6,37~\\mu F$."
+  },
+  {
+    "id": "TC208",
+    "theme": "Technique",
+    "text": "Par quel facteur les pertes d'un condensateur réel en courant alternatif sont-elles définies ?",
+    "options": [
+      "Le facteur de qualité $Q$",
+      "La réactance relative",
+      "Le cosinus phi",
+      "Le facteur de perte $\\tan \\delta$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "La tangente delta (facteur de dissipation) est l'inverse du facteur de qualité ($1/Q$). Elle représente le rapport entre la puissance dissipée et la puissance réactive."
+  },
+  {
+    "id": "TC301",
+    "theme": "Technique",
+    "text": "Une tension continue est appliquée sur une bobine via une résistance. Quelle courbe représente la tension aux bornes de la bobine ?",
+    "options": [
+      "Une augmentation exponentielle",
+      "Une chute exponentielle vers zéro",
+      "Une ligne droite horizontale",
+      "Une sinusoïde amortie"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><path d='M20 100 L180 100 M20 100 L20 20' stroke='#94a3b8' fill='none'/><path d='M20 30 Q 40 100 180 100' fill='none' stroke='#ef4444' stroke-width='3'/><text x='100' y='115' text-anchor='middle' font-size='10'>Temps (t)</text><text x='10' y='60' text-anchor='middle' font-size='10' transform='rotate(-90 10 60)'>Tension (U)</text></svg>",
+    "explanation": "À l'instant $t=0$, la bobine s'oppose au courant et présente une tension maximale égale à la source. Puis, la tension chute à mesure que le champ magnétique s'établit et que le courant se stabilise."
+  },
+  {
+    "id": "TC302",
+    "theme": "Technique",
+    "text": "Dans une inductance pure, le courant par rapport à la tension est :",
+    "options": [
+      "En avance de $90^{\\circ}$",
+      "En retard de $45^{\\circ}$",
+      "En avance de $45^{\\circ}$",
+      "En retard de $90^{\\circ}$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Dans une bobine, la tension apparaît instantanément mais le courant met du temps à s'établir. On utilise le moyen ELI (E - tension, L - inductance, I - courant)."
+  },
+  {
+    "id": "TC305",
+    "theme": "Technique",
+    "text": "Quelle est l'impédance ($X_{L}$) d'une bobine de $3~\\mu H$ à $100~MHz$ ?",
+    "options": [
+      "$1885~k\\Omega$",
+      "$1,9~\\Omega$",
+      "$1885~\\Omega$",
+      "$942~\\Omega$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "$X_{L} = 2 \\cdot \\pi \\cdot f \\cdot L = 2 \\cdot 3,14 \\cdot 100 \\cdot 10^{6} \\cdot 3 \\cdot 10^{-6} \\approx 1884,9~\\Omega$."
+  },
+  {
+    "id": "TC308",
+    "theme": "Technique",
+    "text": "Un conducteur rectiligne possède-t-il une inductance ?",
+    "options": [
+      "Oui, tout conducteur, quelle que soit sa forme, possède une inductance",
+      "Oui, mais pas toujours, car les câbles coaxiaux ne possèdent qu'une capacité",
+      "Non, le conducteur doit comporter au moins une courbure",
+      "Oui, mais la valeur dépend uniquement de la résistivité du matériau"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Tout conducteur parcouru par un courant génère un champ magnétique autour de lui, ce qui se traduit par une inductance, même si elle est très faible pour un fil droit."
+  },
+  {
+    "id": "TC310",
+    "theme": "Technique",
+    "text": "En utilisant un noyau pot dont la valeur $A_{L}$ est de $250$, combien de tours faut-il pour fabriquer une bobine de $2~mH$ ?",
+    "options": [
+      "$2828$",
+      "$89$",
+      "$3$",
+      "$53$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Formule : $L = A_{L} \\cdot N^{2}$ (avec $L$ en $nH$). $2~mH = 2\\,000\\,000~nH$. $N = \\sqrt{L / A_{L}} = \\sqrt{2\\,000\\,000 / 250} = \\sqrt{8000} \\approx 89,4$ tours."
+  },
+  {
+    "id": "TC311",
+    "theme": "Technique",
+    "text": "Quelle est l'inductance d'une bobine de $300$ spires bobinées sur un noyau avec un $A_{L}$ de $1250$ ?",
+    "options": [
+      "$112,5~mH$",
+      "$112,5~\\mu H$",
+      "$1,125~mH$",
+      "$11,25~mH$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "$L = A_{L} \\cdot N^{2} = 1250 \\cdot 300^{2} = 1250 \\cdot 90\\,000 = 112\\,500\\,000~nH = 112,5~mH$."
+  },
+  {
+    "id": "TC313",
+    "theme": "Technique",
+    "text": "Un noyau de bobine a un $A_{L}$ de $30$. Quel est le nombre de spires nécessaire pour produire une inductance de $12~\\mu H$ ?",
+    "options": [
+      "$20$",
+      "$400$",
+      "$6$",
+      "$360$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "$12~\\mu H = 12\\,000~nH$. $N = \\sqrt{12\\,000 / 30} = \\sqrt{400} = 20$ tours."
+  },
+  {
+    "id": "TC315",
+    "theme": "Technique",
+    "text": "Que signifie le terme « effet pelliculaire » (skin effect) ?",
+    "options": [
+      "Le courant se déplace vers les bords d'un condensateur",
+      "Le courant électronique se déplace de plus en plus vers la surface d'un conducteur quand la fréquence augmente",
+      "Le courant se déplace vers le centre du conducteur",
+      "L'inductance augmente avec la résistance du conducteur"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "À haute fréquence, le courant ne circule plus au cœur du fil mais seulement en surface, ce qui augmente la résistance effective du conducteur."
+  },
+  {
+    "id": "TC401",
+    "theme": "Technique",
+    "text": "Un transformateur est connecté au $230~V$ et fournit $11,5~V$. Son primaire comporte $600$ spires. Quel est le nombre de spires au secondaire ?",
+    "options": [
+      "$30$ spires",
+      "$180$ spires",
+      "$52$ spires",
+      "$20$ spires"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Rapport de transformation : $n = U_{s} / U_{p} = 11,5 / 230 = 0,05$. $N_{s} = N_{p} \\cdot n = 600 \\cdot 0,05 = 30$ spires."
+  },
+  {
+    "id": "TC404",
+    "theme": "Technique",
+    "text": "Dans un circuit avec un transformateur de rapport de spires $1:4$ et une résistance secondaire $R=16~k\\Omega$, quelle est l'impédance vue au primaire ?",
+    "options": [
+      "$64~k\\Omega$",
+      "$16~k\\Omega$",
+      "$1~k\\Omega$",
+      "$4~k\\Omega$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "imageSVG": "<svg viewBox='0 0 300 120' xmlns='http://www.w3.org/2000/svg'><path d='M80 20 v80 M100 20 v80' stroke='#1e293b' stroke-width='2'/><path d='M40 30 Q 60 30 60 40 T 60 50 T 60 60 T 60 70 T 60 80 Q 60 90 40 90' fill='none' stroke='#3b82f6' stroke-width='2'/><path d='M140 20 Q 120 20 120 30 T 120 40 T 120 50 T 120 60 T 120 70 T 120 80 T 120 90 T 120 100 Q 120 110 140 110' fill='none' stroke='#ef4444' stroke-width='2'/><text x='50' y='110' text-anchor='middle' font-size='10'>1</text><text x='130' y='125' text-anchor='middle' font-size='10'>4</text><rect x='180' y='40' width='30' height='40' fill='none' stroke='#1e293b'/><text x='195' y='65' text-anchor='middle' font-size='10'>16k</text></svg>",
+    "explanation": "Le rapport d'impédance est le carré du rapport de spires : $Z_{p} / Z_{s} = (N_{p} / N_{s})^{2}$. Ici $(1/4)^{2} = 1/16$. $Z_{p} = 16~k\\Omega / 16 = 1~k\\Omega$."
+  },
+  {
+    "id": "TC406",
+    "theme": "Technique",
+    "text": "Pour adapter une antenne de $300~\\Omega$ à une ligne de $75~\\Omega$, quel rapport de spires faut-il ?",
+    "options": [
+      "$2:1$",
+      "$8:1$",
+      "$16:1$",
+      "$4:1$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Rapport d'impédance : $300 / 75 = 4$. Le rapport de spires est la racine carrée du rapport d'impédance : $\\sqrt{4} = 2$. Donc un rapport $2:1$."
+  },
+  {
+    "id": "TC516",
+    "theme": "Technique",
+    "text": "Une diode Zener stabilise $5~V$ à partir de $12~V$. Pour un courant de $25~mA$, calculer la résistance série $R_{v}$ et sa puissance dissipée.",
+    "options": [
+      "$480~\\Omega / 300~mW$",
+      "$280~\\Omega / 300~mW$",
+      "$280~\\Omega / 175~mW$",
+      "$200~\\Omega / 175~mW$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "imageSVG": "<svg viewBox='0 0 300 120' xmlns='http://www.w3.org/2000/svg'><line x1='20' y1='30' x2='80' y2='30' stroke='#1e293b'/><rect x='80' y='20' width='40' height='20' fill='white' stroke='#1e293b'/><text x='100' y='15' text-anchor='middle' font-size='10'>Rv</text><line x1='120' y1='30' x2='200' y2='30' stroke='#1e293b'/><path d='M200 30 v30 M190 60 h20 M190 75 L210 60 L190 60 Z M200 75 v15' fill='none' stroke='#1e293b'/><line x1='20' y1='90' x2='280' y2='90' stroke='#1e293b'/></svg>",
+    "explanation": "1. Tension aux bornes de $R_{v}$ : $12 - 5 = 7~V$. 2. $R_{v} = U / I = 7 / 0,025 = 280~\\Omega$. 3. Puissance $P = U \\cdot I = 7 \\cdot 0,025 = 0,175~W = 175~mW$."
+  },
+  {
+    "id": "TC517",
+    "theme": "Technique",
+    "text": "Régulation Zener ($13,8~V$ entrée, $4,7~V$ sortie). Courant Zener $25~mA$, courant charge $20~mA$. Valeur de $R_{v}$ ?",
+    "options": [
+      "$235~\\Omega$",
+      "$188~\\Omega$",
+      "$202~\\Omega$",
+      "$364~\\Omega$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Le courant total traversant $R_{v}$ est la somme des courants : $25 + 20 = 45~mA$. Tension sur $R_{v} = 13,8 - 4,7 = 9,1~V$. $R_{v} = 9,1 / 0,045 \\approx 202,2~\\Omega$."
+  },
+  {
+    "id": "TC518",
+    "theme": "Technique",
+    "text": "Une LED ($U_{f} = 1,4~V$ / $I_{f} = 20~mA$) est connectée sur une source de $5~V$. Quelle est la résistance série nécessaire ?",
+    "options": [
+      "$320~\\Omega$",
+      "$250~\\Omega$",
+      "$70~\\Omega$",
+      "$180~\\Omega$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Calcul : $R = (U_{source} - U_{f}) / I_{f} = (5 - 1,4) / 0,020 = 3,6 / 0,020 = 180~\\Omega$."
+  },
+  {
+    "id": "TC519",
+    "theme": "Technique",
+    "text": "Une LED ($1,75~V$ / $25~mA$) est alimentée sous $5,5~V$. Calculer la résistance série et sa puissance.",
+    "options": [
+      "$150~\\Omega / 0,1~W$",
+      "$70~\\Omega / 0,1~W$",
+      "$290~\\Omega / 0,25~W$",
+      "$220~\\Omega / 0,25~W$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "1. $R = (5,5 - 1,75) / 0,025 = 3,75 / 0,025 = 150~\\Omega$. 2. $P = U \\times I = 3,75 \\times 0,025 = 0,09375~W \\approx 0,1~W$."
+  },
+  {
+    "id": "TC520",
+    "theme": "Technique",
+    "text": "Comment la fréquence du circuit résonnant change-t-elle si le curseur du potentiomètre P est déplacé vers X (plus de tension inverse sur la diode varicap) ?",
+    "options": [
+      "La fréquence augmente",
+      "La diode se bloque et le circuit s'arrête",
+      "La fréquence diminue",
+      "La fréquence ne change pas"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><path d='M20 20 H60 M40 20 V40' stroke='#1e293b'/><rect x='30' y='40' width='20' height='40' fill='none' stroke='#1e293b'/><path d='M40 80 V100 H160' stroke='#1e293b'/><circle cx='100' cy='100' r='15' fill='none' stroke='#3b82f6'/><path d='M90 90 L110 110 M110 90 L90 110' stroke='#3b82f6'/><text x='100' y='130' text-anchor='middle' font-size='10' fill='#3b82f6'>Varicap</text></svg>",
+    "explanation": "Une tension inverse plus élevée réduit la capacité de la diode varicap. Comme $f = 1 / (2\\pi\\sqrt{LC})$, si $C$ diminue, la fréquence $f$ augmente."
+  },
+  {
+    "id": "TC527",
+    "theme": "Technique",
+    "text": "Dans un montage à 3 diodes ($D_{1}$ Solaire 14,9V, $D_{2}$ Accu 13,9V, $D_{3}$ Alim 13,5V), quel est l'état des diodes ?",
+    "options": [
+      "$D_{1}$ conduit, $D_{2}$ conduit, $D_{3}$ conduit",
+      "$D_{1}$ conduit, $D_{2}$ conduit, $D_{3}$ bloquée",
+      "$D_{1}$ bloquée, $D_{2}$ conduit, $D_{3}$ conduit",
+      "$D_{1}$ conduit, $D_{2}$ bloquée, $D_{3}$ bloquée"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "La source ayant la tension la plus élevée ($U_{1} = 14,9~V$) impose sa tension sur le rail commun. Les autres diodes reçoivent une tension inverse et se bloquent."
+  },
+  {
+    "id": "TC601",
+    "theme": "Technique",
+    "text": "Quelles sont les désignations correctes pour les symboles 1 (flèche sortante) et 2 (flèche entrante) ?",
+    "options": [
+      "1: Canal N / 2: Canal P",
+      "1: NPN / 2: PNP",
+      "1: PNP / 2: NPN",
+      "1: Canal P / 2: Canal N"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='60' r='30' fill='none' stroke='#1e293b' stroke-width='2'/><path d='M80 60 H100 M100 40 V80 M100 50 L120 40 M100 70 L120 80' stroke='#1e293b' stroke-width='2'/><path d='M110 75 L120 80 L115 70 Z' fill='#1e293b'/><text x='100' y='110' text-anchor='middle' font-weight='bold'>1 (NPN)</text><circle cx='300' cy='60' r='30' fill='none' stroke='#1e293b' stroke-width='2'/><path d='M280 60 H300 M300 40 V80 M300 50 L320 40 M300 70 L320 80' stroke='#1e293b' stroke-width='2'/><path d='M310 45 L300 50 L305 40 Z' fill='#1e293b'/><text x='300' y='110' text-anchor='middle' font-weight='bold'>2 (PNP)</text></svg>",
+    "explanation": "NPN : la flèche de l'émetteur pointe vers l'extérieur (Not Pointing iN). PNP : la flèche pointe vers l'intérieur."
+  },
+  {
+    "id": "TC612",
+    "theme": "Technique",
+    "text": "Quelle est la tension Base-Émetteur ($U_{be}$) d'un transistor Silicium NPN passant ?",
+    "options": [
+      "Très supérieure à la tension d'émetteur",
+      "Égale à la tension de collecteur",
+      "Environ $0,6~V$ de plus que l'émetteur",
+      "Environ $0,6~V$ de moins que l'émetteur"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "La jonction base-émetteur se comporte comme une diode. Pour le silicium, le seuil de conduction est d'environ $0,6~V$ à $0,7~V$."
+  },
+  {
+    "id": "TC618",
+    "theme": "Technique",
+    "text": "Alim $10~V$, $I_{c} = 2~mA$, gain $\\beta = 200$. Calculer la résistance de base $R_{1}$ (sans pont diviseur).",
+    "options": [
+      "$85,5~k\\Omega$",
+      "$47~k\\Omega$",
+      "$940~k\\Omega$",
+      "$1~M\\Omega$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "1. $I_{b} = I_{c} / \\beta = 2~mA / 200 = 0,01~mA = 10~\\mu A$. 2. Tension sur $R_{1} = 10 - 0,6 = 9,4~V$. 3. $R_{1} = 9,4 / 10^{-5} = 940\\,000~\\Omega = 940~k\\Omega$."
+  },
+  {
+    "id": "TC619",
+    "theme": "Technique",
+    "text": "Alim $10~V$, $I_{c} = 2~mA$, $\\beta = 200$. Le courant dans $R_{2}$ (shunt) est $10 \\times I_{b}$. Calculer $R_{1}$.",
+    "options": [
+      "$85,5~k\\Omega$",
+      "$540~k\\Omega$",
+      "$76,4~k\\Omega$",
+      "$940~k\\Omega$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "1. $I_{b} = 10~\\mu A$. 2. $I_{R2} = 100~\\mu A$. 3. Courant total dans $R_{1} = 110~\\mu A$. 4. $R_{1} = (10 - 0,6) / 0,00011 \\approx 85\\,454~\\Omega = 85,5~k\\Omega$."
+  },
+  {
+    "id": "TC621",
+    "theme": "Technique",
+    "text": "La tension d'alimentation est de $10~V$, $I_{c} = 2~mA$, gain $\\beta = 200$. On veut une tension collecteur-émetteur $U_{ce} = 6~V$. Calculer la résistance de base $R_{1}$ (montage à une seule résistance de base).",
+    "options": [
+      "$540~k\\Omega$",
+      "$76,4~k\\Omega$",
+      "$1,98~k\\Omega$",
+      "$85,5~k\\Omega$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "1. Courant de base $I_{b} = I_{c} / \\beta = 2~mA / 200 = 10~\\mu A$. 2. Puisque $U_{ce} = 6~V$, la tension aux bornes de $R_{c}$ est de $4~V$. 3. La tension aux bornes de $R_{1}$ est $U_{alim} - U_{be} = 10 - 0,6 = 9,4~V$ (si relié au +, cas standard). $R_{1} = 9,4 / 10^{-5} = 940~k\\Omega$. Note : Si $R_{1}$ est branché après $R_{c}$ (réaction de collecteur), $U_{R1} = 6 - 0,6 = 5,4~V$. $R_{1} = 5,4 / 10^{-5} = 540~k\\Omega$."
+  },
+  {
+    "id": "TC623",
+    "theme": "Technique",
+    "text": "Que se passe-t-il si la résistance $R_{2}$ (inférieure du pont) est déconnectée (soudure défectueuse) ?",
+    "options": [
+      "Le courant de collecteur n'est limité que par $R_{c}$. La tension de collecteur chute à $\\approx 0,1~V$",
+      "Le courant de collecteur ne circule plus. La tension du collecteur monte à $U_{alim}$ pour protéger le circuit",
+      "Le courant de collecteur augmente fortement et $V_{c}$ monte à $U_{alim}$",
+      "Un courant de court-circuit circule et détruit instantanément le transistor"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Sans $R_{2}$, le potentiel de base n'est plus ponté vers la masse. La tension de base monte vers $U_{alim}$, le transistor s'ouvre à fond (saturation). $V_{c}$ tombe alors à la tension de déchet ($\\approx 0,1~V$)."
+  },
+  {
+    "id": "TC624",
+    "theme": "Technique",
+    "text": "Que se passe-t-il si la résistance $R_{1}$ (supérieure du pont) est déconnectée ?",
+    "options": [
+      "Le courant de collecteur augmente fortement",
+      "Plus aucun courant de collecteur ne circule. La tension de collecteur est égale à $U_{alim}$",
+      "Un courant de court-circuit circule. Le transistor est détruit",
+      "Le courant est limité par $R_{c}$ et $V_{c}$ chute à $0,1~V$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Sans $R_{1}$, la base est tirée à la masse par $R_{2}$. Le transistor est bloqué ($I_{c} = 0$). Comme il n'y a pas de chute de tension dans $R_{c}$, on retrouve $U_{alim}$ sur le collecteur."
+  },
+  {
+    "id": "TC702",
+    "theme": "Technique",
+    "text": "Quelle est la fonction principale d'une porte logique ?",
+    "options": [
+      "C'est un circuit bascule possédant deux états stables",
+      "Elle convertit les signaux numériques en signaux analogiques",
+      "Elle calcule la somme arithmétique de deux chiffres décimaux",
+      "Elle traite des signaux binaires selon des fonctions logiques de base (ET, OU, etc.)"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Une porte logique applique une règle booléenne (algèbre de Boole) à ses entrées pour déterminer l'état de sa sortie."
+  },
+  {
+    "id": "TC707",
+    "theme": "Technique",
+    "text": "Lequel des signaux $X_{1}$ à $X_{4}$ correspond à une porte OU (OR) pour les entrées $E_{1}$ et $E_{2}$ ?",
+    "options": [
+      "$X_{1}$",
+      "$X_{3}$",
+      "$X_{4}$",
+      "$X_{2}$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 300 120' xmlns='http://www.w3.org/2000/svg'><path d='M20 30 h40 v-20 h40 v20 h100' fill='none' stroke='#1e293b' stroke-width='2'/><text x='5' y='25' font-size='10'>E1</text><path d='M20 60 h20 v-20 h20 v20 h20 v-20 h20 v20 h100' fill='none' stroke='#1e293b' stroke-width='2'/><text x='5' y='55' font-size='10'>E2</text><path d='M20 90 h20 v-20 h60 v20 h100' fill='none' stroke='#3b82f6' stroke-width='3'/><text x='5' y='85' font-size='10' fill='#3b82f6'>OU</text></svg>",
+    "explanation": "La fonction OU est à l'état '1' dès que l'une des entrées ($E_{1}$ OU $E_{2}$) est à '1'."
+  },
+  {
+    "id": "TC709",
+    "theme": "Technique",
+    "text": "Lequel des signaux $X_{1}$ à $X_{4}$ correspond à une porte ET (AND) ?",
+    "options": [
+      "$X_{3}$",
+      "$X_{1}$",
+      "$X_{4}$",
+      "$X_{2}$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "La fonction ET n'est à '1' que si TOUTES les entrées ($E_{1}$ ET $E_{2}$) sont simultanément à '1'."
+  },
+  {
+    "id": "TC710",
+    "theme": "Technique",
+    "text": "Dans quelle plage de tension d'alimentation les circuits intégrés CMOS classiques fonctionnent-ils ?",
+    "options": [
+      "$\\pm 2,5~V$ à $\\pm 5,5~V$",
+      "$+3~V$ à $+15~V$",
+      "$\\pm 5~V$ uniquement",
+      "$+2,5~V$ à $+5,5~V$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "La technologie CMOS est réputée pour sa large plage d'alimentation, typiquement de $3$ à $15~V$ (série 4000)."
+  },
+  {
+    "id": "TC712",
+    "theme": "Technique",
+    "text": "Quelles sont les propriétés d'un montage suiveur de tension à amplificateur opérationnel ?",
+    "options": [
+      "$R_{in}$ faible / $R_{out}$ élevée / Gain élevé",
+      "$R_{in}$ très faible / $R_{out}$ élevée / Gain faible",
+      "$R_{in}$ très élevée / $R_{out}$ faible / Gain très élevé",
+      "$R_{in}$ très élevée / $R_{out}$ faible / Gain de 1"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><path d='M40 60 L70 60 L70 30 L130 60 L70 90 L70 60' fill='none' stroke='#1e293b' stroke-width='2'/><path d='M130 60 h30' stroke='#1e293b'/><path d='M110 60 v-40 h-50 v30' fill='none' stroke='#1e293b'/><text x='75' y='55' font-size='14'>+</text><text x='75' y='75' font-size='14'>-</text></svg>",
+    "explanation": "Le suiveur (buffer) possède un gain unité ($U_{out} = U_{in}$). Il sert d'adaptateur d'impédance grâce à son entrée haute impédance et sa sortie basse impédance."
+  },
+  {
+    "id": "TC713",
+    "theme": "Technique",
+    "text": "Calculer le gain en tension $A_{v} = U_{A}/U_{E}$ de ce montage non-inverseur ($R_{feedback} = 22~k\\Omega$, $R_{entrée} = 2,2~k\\Omega$).",
+    "options": [
+      "$10$",
+      "$11$",
+      "$19,8$",
+      "$24,2$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Formule du montage non-inverseur : $A_{v} = 1 + (R_{f} / R_{in}) = 1 + (22 / 2,2) = 1 + 10 = 11$."
+  },
+  {
+    "id": "TC715",
+    "theme": "Technique",
+    "text": "La résistance d'entrée de l'ampli-op suivant doit être de $1~k\\Omega$, et un gain d'environ $20$ est souhaité. Quelle doit être la valeur de la résistance de contre-réaction $R_{2}$ ?",
+    "options": [
+      "$\\approx 1~k\\Omega$",
+      "$\\approx 1,90~k\\Omega$",
+      "$\\approx 400~k\\Omega$",
+      "$\\approx 20~k\\Omega$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Pour un amplificateur inverseur, le gain est $A_{v} = -R_{2} / R_{1}$ et la résistance d'entrée est $R_{1}$. Avec $R_{1} = 1~k\\Omega$ et un gain de $20$, $R_{2} = 20 \\times 1~k\\Omega = 20~k\\Omega$."
+  },
+  {
+    "id": "TC716",
+    "theme": "Technique",
+    "text": "Lequel des circuits amplificateurs opérationnels suivants fonctionne correctement en amplificateur inverseur de tension ?",
+    "options": [
+      "Circuit A",
+      "Circuit B",
+      "Circuit C",
+      "Circuit D"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "imageSVG": "<svg viewBox='0 0 300 150' xmlns='http://www.w3.org/2000/svg'><path d='M100 75 L130 50 L130 100 Z' fill='none' stroke='#1e293b' stroke-width='2'/><path d='M70 65 h30 M70 110 h30 M130 75 h30' stroke='#1e293b' stroke-width='2'/><path d='M90 65 v-40 h50 v25' fill='none' stroke='#3b82f6'/><text x='110' y='68' font-size='10'>-</text><text x='110' y='92' font-size='10'>+</text><text x='180' y='80' font-weight='bold' fill='#3b82f6'>D: Inverseur</text></svg>",
+    "explanation": "Dans un montage inverseur, le signal d'entrée arrive sur l'entrée inverseuse (-) via une résistance $R_{1}$, et l'entrée non-inverseuse (+) est reliée à la masse."
+  },
+  {
+    "id": "TD103",
+    "theme": "Technique",
+    "text": "Quelle est la capacité totale de trois condensateurs de $20~nF$, $0,03~\\mu F$ et $15\\,000~pF$ connectés en parallèle ?",
+    "options": [
+      "$0,650~\\mu F$",
+      "$650\\,000~pF$",
+      "$0,065~\\mu F$",
+      "$650~nF$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "En parallèle, les capacités s'additionnent : $20~nF + 30~nF (0,03\\mu F) + 15~nF (15000pF) = 65~nF = 0,065~\\mu F$."
+  },
+  {
+    "id": "TD105",
+    "theme": "Technique",
+    "text": "Quelle est l'inductance totale de trois bobines connectées en parallèle de $2000~nH$, $0,03~mH$ et $1500~\\mu H$ ?",
+    "options": [
+      "$187,3~nH$",
+      "$1532~\\mu H$",
+      "$1,873~\\mu H$",
+      "$1,532~\\mu H$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "On convertit tout en $\\mu H$ : $2~\\mu H$, $30~\\mu H$ et $1500~\\mu H$. $1/L_{t} = 1/2 + 1/30 + 1/1500 \\approx 0,534$. $L_{t} = 1 / 0,534 \\approx 1,873~\\mu H$."
+  },
+  {
+    "id": "TD109",
+    "theme": "Technique",
+    "text": "Comment se divise la tension avec deux résistances connectées en série si $R_{1} = 1/6$ de $R_{2}$ ?",
+    "options": [
+      "$U_{1} = U_{2}/5$",
+      "$U_{1} = U_{2}/6$",
+      "$U_{1} = 6 \\cdot U_{2}$",
+      "$U_{1} = 5 \\cdot U_{2}$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Dans un montage série, les tensions sont proportionnelles aux résistances : $U_{1}/U_{2} = R_{1}/R_{2}$. Si $R_{1} = R_{2}/6$, alors $U_{1} = U_{2}/6$."
+  },
+  {
+    "id": "TD111",
+    "theme": "Technique",
+    "text": "Quelle est la tension $U$ si un courant de $1~mA$ traverse $R_{3}$ et que toutes les résistances font $10~k\\Omega$ (montage en pont) ?",
+    "options": [
+      "$15~V$",
+      "$40~V$",
+      "$30~V$",
+      "$20~V$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "1. Tension sur $R_{3}$ : $10~k\\Omega \\times 1~mA = 10~V$. 2. $R_{2}$ est en parallèle sur $R_{3}$, elle consomme aussi $1~mA$. Courant total $= 2~mA$. 3. Tension sur $R_{1}$ : $10~k\\Omega \\times 2~mA = 20~V$. 4. $U_{total} = 20~V + 10~V = 30~V$."
+  },
+  {
+    "id": "TD116",
+    "theme": "Technique",
+    "text": "Quelle est la capacité totale de condensateurs en parallèle de $0,1~\\mu F$, $150~nF$ et $50\\,000~pF$ ?",
+    "options": [
+      "$0,027~\\mu F$",
+      "$2,73~nF$",
+      "$0,255~\\mu F$",
+      "$0,3~\\mu F$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "$100~nF (0,1\\mu F) + 150~nF + 50~nF (50000pF) = 300~nF = 0,3~\\mu F$."
+  },
+  {
+    "id": "TD202",
+    "theme": "Technique",
+    "text": "La réponse en fréquence de l'impédance illustrée (pic de Z à la résonance) est typique de :",
+    "options": [
+      "Une inductance",
+      "Un condensateur",
+      "Un circuit résonant parallèle",
+      "Un circuit résonant série"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "imageSVG": "<svg viewBox='0 0 150 100' xmlns='http://www.w3.org/2000/svg'><path d='M20 80 L130 80 M20 80 L20 20' stroke='#94a3b8' fill='none'/><path d='M40 75 Q 75 10 110 75' fill='none' stroke='#ef4444' stroke-width='2'/><text x='10' y='20' font-size='10'>Z</text><text x='130' y='90' font-size='10'>f</text></svg>",
+    "explanation": "Un circuit résonant parallèle (circuit bouchon) présente une impédance maximale à sa fréquence de résonance."
+  },
+  {
+    "id": "TD206",
+    "theme": "Technique",
+    "text": "Comment la fréquence de résonance d'un circuit change-t-elle si 1) on ajoute des spires, 2) on réduit la longueur de la bobine, 3) un noyau de cuivre est inséré ?",
+    "options": [
+      "Augmente pour 1, diminue pour 2 et 3",
+      "Diminue pour 1 et 2, augmente pour 3",
+      "Diminue pour les 3 cas",
+      "Diminue pour 1, augmente pour 2 et 3"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "1. Plus de spires = $L$ augmente $\\rightarrow f$ diminue. 2. Serrer les spires = $L$ augmente $\\rightarrow f$ diminue. 3. Noyau cuivre = $L$ diminue (courants de Foucault) $\\rightarrow f$ augmente."
+  },
+  {
+    "id": "TD231",
+    "theme": "Technique",
+    "text": "Un filtre à quartz avec une bande passante à $-3~dB$ de $2,3~kHz$ est le mieux adapté à une utilisation dans un émetteur-récepteur pour :",
+    "options": [
+      "La BLU (SSB)",
+      "La FM",
+      "L'AM",
+      "La CW"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Une largeur de bande de $2,3~kHz$ à $2,7~kHz$ correspond exactement au spectre de la parole humaine utilisé en Bande Latérale Unique (BLU)."
+  },
+  {
+    "id": "TD309",
+    "theme": "Technique",
+    "text": "Lequel des circuits suivants représente un pont redresseur avec une disposition correcte des diodes et les bonnes polarités ?",
+    "options": [
+      "Circuit A",
+      "Circuit B",
+      "Circuit C",
+      "Circuit D"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M100 20 L150 75 L100 130 L50 75 Z' fill='none' stroke='#1e293b' stroke-width='2'/><path d='M75 47 L100 20 M125 47 L100 20' stroke='#1e293b' stroke-width='2'/><path d='M75 103 L100 130 M125 103 L100 130' stroke='#1e293b' stroke-width='2'/><text x='100' y='15' text-anchor='middle' font-weight='bold'>+</text><text x='100' y='145' text-anchor='middle' font-weight='bold'>-</text><text x='40' y='75' text-anchor='end'>~</text><text x='160' y='75' text-anchor='start'>~</text></svg>",
+    "explanation": "Dans un pont de Graetz (pont complet), les flèches des diodes doivent toutes 'pointer' vers la sortie positive (+)."
+  },
+  {
+    "id": "TD312",
+    "theme": "Technique",
+    "text": "Dans ce circuit régulateur ($U_{z} = 5,6~V$), la tension de sortie entre A et B est d'environ :",
+    "options": [
+      "$5~V$",
+      "$11,2~V$",
+      "$5,6~V$",
+      "$6,2~V$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "La tension de sortie à l'émetteur est égale à la tension Zener moins la chute de tension base-émetteur : $U_{out} = U_{z} - U_{be} = 5,6~V - 0,6~V = 5,0~V$."
+  },
+  {
+    "id": "TD313",
+    "theme": "Technique",
+    "text": "Avec un transformateur de rapport $5:1$ ($230~V$ au primaire), quelle doit être la tension de claquage de la diode avec une marge de $10\\%$ (circuit avec filtrage capacitif) ?",
+    "options": [
+      "$90~V$",
+      "$51~V$",
+      "$72~V$",
+      "$143~V$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "1. $U_{sec,eff} = 230 / 5 = 46~V$. 2. $U_{crête} = 46 \\times 1,414 \\approx 65~V$. 3. Avec un condensateur, la diode voit en inverse $2 \\times U_{crête} = 130~V$. 4. Marge $+10\\% = 130 \\times 1,1 = 143~V$."
+  },
+  {
+    "id": "TD314",
+    "theme": "Technique",
+    "text": "Avec un transformateur de rapport $8:1$, la tension de claquage minimale de la diode (marge $10\\%$) doit être :",
+    "options": [
+      "$63~V$",
+      "$32~V$",
+      "$143~V$",
+      "$90~V$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "1. $U_{sec,eff} = 230 / 8 = 28,75~V$. 2. $U_{crête} = 28,75 \\times 1,414 \\approx 40,6~V$. 3. Tension inverse max $\\approx 2 \\times 40,6 = 81,2~V$. 4. Marge $+10\\% \\approx 90~V$."
+  },
+  {
+    "id": "TD317",
+    "theme": "Technique",
+    "text": "Quelle est la fonction du bloc E (commutateur) dans cette alimentation à découpage ?",
+    "options": [
+      "C'est un switch électronique pour le contrôle de largeur d'impulsions (PWM)",
+      "Il sert de redresseur d'impulsions",
+      "Il convertit le secteur en basse tension alternative",
+      "C'est une protection contre les surtensions"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Le coeur d'une alimentation à découpage (SMPS) est le transistor de découpage piloté par un signal PWM (Pulse Width Modulation) à haute fréquence."
+  },
+  {
+    "id": "TD318",
+    "theme": "Technique",
+    "text": "Quel est le principal inconvénient d'une alimentation à découpage par rapport à une alimentation linéaire ?",
+    "options": [
+      "Nécessite un transformateur plus gros",
+      "Génère des harmoniques pouvant entraîner des perturbations (QRM)",
+      "Ne peut pas débiter de courants élevés",
+      "Présente des pertes plus élevées"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Le découpage rapide crée des signaux carrés riches en harmoniques qui nécessitent un blindage et un filtrage rigoureux pour ne pas brouiller la réception radio."
+  },
+  {
+    "id": "TD321",
+    "theme": "Technique",
+    "text": "Quelle est la fréquence de l'ondulation (ripple) en sortie d'un redresseur double alternance connecté au secteur $50~Hz$ ?",
+    "options": [
+      "$100~Hz$",
+      "$25~Hz$",
+      "$50~Hz$",
+      "$200~Hz$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Le redresseur double alternance retourne les alternances négatives, doublant ainsi la fréquence de l'ondulation : $2 \\times 50~Hz = 100~Hz$."
+  },
+  {
+    "id": "TD401",
+    "theme": "Technique",
+    "text": "Comment est configuré ce circuit transistor (Signal entre Base et Émetteur, sortie sur Collecteur) ?",
+    "options": [
+      "Amplificateur en émetteur suiveur",
+      "Amplificateur en émetteur commun",
+      "Amplificateur en base commune",
+      "Amplificateur en collecteur commun"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Dans ce montage, l'émetteur est commun à l'entrée et à la sortie (référencé à la masse), c'est la configuration la plus courante pour amplifier en tension et courant."
+  },
+  {
+    "id": "TD402",
+    "theme": "Technique",
+    "text": "Quelle est la fonction des résistances $R_{1}$ et $R_{2}$ (pont diviseur sur la base) ?",
+    "options": [
+      "Déterminer les limites de fréquence",
+      "Prévenir les oscillations",
+      "Réduire la sensibilité d'entrée",
+      "Assurer la polarisation de la base"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Le pont $R_{1}/R_{2}$ fixe le point de fonctionnement au repos du transistor en appliquant une tension stable sur la base."
+  },
+  {
+    "id": "TD404",
+    "theme": "Technique",
+    "text": "Quelle est la répercussion sur le gain en tension de ce montage si l'on retire le condensateur d'émetteur $C_{1}$ ?",
+    "options": [
+      "Il baisse",
+      "Il augmente",
+      "Il tombe à zéro",
+      "Il ne change pas"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Le condensateur $C_{1}$ court-circuite la résistance d'émetteur pour les signaux alternatifs (découplage). Sans lui, une contre-réaction série apparaît, ce qui stabilise le montage mais réduit fortement le gain en tension."
+  },
+  {
+    "id": "TD406",
+    "theme": "Technique",
+    "text": "Que peut-on dire du gain en tension $V_{U}$ et du déphasage $\\varphi$ entre la tension d'entrée et de sortie de ce circuit (Émetteur Commun) ?",
+    "options": [
+      "$V_{U}$ est grand ($100$ à $300$) et $\\varphi = 180^{\\circ}$",
+      "$V_{U}$ est grand ($100$ à $300$) et $\\varphi = 0^{\\circ}$",
+      "$V_{U}$ est proche de $1$ ($0,98$) et $\\varphi = 0^{\\circ}$",
+      "$V_{U}$ est faible ($0,98$) et $\\varphi = 180^{\\circ}$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Le montage en émetteur commun est le seul qui inverse la phase du signal ($180^{\\circ}$) tout en offrant un gain en tension élevé."
+  },
+  {
+    "id": "TD407",
+    "theme": "Technique",
+    "text": "Que peut-on dire de l'impédance d'entrée $Z_{e}$ et de sortie $Z_{s}$ de ce circuit (Collecteur Commun / Émetteur suiveur) ?",
+    "options": [
+      "$Z_{e}$ est élevée ($10~k\\Omega$ à $200~k\\Omega$) et $Z_{s}$ est faible ($4~\\Omega$ à $100~\\Omega$)",
+      "$Z_{e}$ et $Z_{s}$ sont toutes deux très élevées",
+      "$Z_{e}$ est faible et $Z_{s}$ est élevée",
+      "$Z_{e}$ et $Z_{s}$ sont toutes deux très faibles"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 120' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='60' r='30' fill='none' stroke='#1e293b' stroke-width='2'/><path d='M80 60 H100 M100 40 V80 M100 50 L120 40 M100 70 L120 80' stroke='#1e293b' stroke-width='2'/><text x='150' y='65' font-size='10' font-weight='bold' fill='#3b82f6'>SUIVEUR</text></svg>",
+    "explanation": "Le montage en collecteur commun (émetteur suiveur) est utilisé comme adaptateur d'impédance : il présente une haute impédance d'entrée pour ne pas charger la source et une basse impédance de sortie pour piloter une charge."
+  },
+  {
+    "id": "TD419",
+    "theme": "Technique",
+    "text": "À quels modes de fonctionnement correspondent les points $P_{1}$ à $P_{4}$ sur la caractéristique d'entrée d'un transistor ?",
+    "options": [
+      "$P_{4}$: Classe A / $P_{3}$: Classe AB / $P_{2}$: Classe B / $P_{1}$: Classe C",
+      "$P_{4}$: Classe C / $P_{3}$: Classe B / $P_{2}$: Classe AB / $P_{1}$: Classe A",
+      "$P_{4}$: Classe A / $P_{3}$: Classe B / $P_{2}$: Classe C / $P_{1}$: Pas d'amplification",
+      "$P_{4}$: Classe AB / $P_{3}$: Classe A / $P_{2}$: Classe B / $P_{1}$: Classe C"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 200 150' xmlns='http://www.w3.org/2000/svg'><path d='M30 130 h150 M40 140 v-120' stroke='#94a3b8' fill='none'/><path d='M40 130 h40 L160 20' stroke='#ef4444' stroke-width='2' fill='none'/><circle cx='130' cy='45' r='3' fill='#1e293b'/><text x='135' y='45' font-size='10'>P4 (A)</text><circle cx='100' cy='75' r='3' fill='#1e293b'/><text x='105' y='75' font-size='10'>P3 (AB)</text><circle cx='80' cy='130' r='3' fill='#1e293b'/><text x='70' y='125' font-size='10'>P2 (B)</text><circle cx='50' cy='130' r='3' fill='#1e293b'/><text x='45' y='125' font-size='10'>P1 (C)</text><text x='180' y='145' font-size='8'>Ube</text><text x='30' y='20' font-size='8'>Ic</text></svg>",
+    "explanation": "A: milieu de la droite. B: au seuil de conduction. C: en dessous du seuil (transistor bloqué au repos). AB: légèrement au-dessus du seuil."
+  },
+  {
+    "id": "TD422",
+    "theme": "Technique",
+    "text": "Quelles sont les caractéristiques d'un amplificateur de puissance RF fonctionnant en classe C ?",
+    "options": [
+      "Rendement élevé (80-87%), taux d'harmoniques élevé, courant de repos nul",
+      "Rendement faible (25%), signal très pur, courant de repos élevé",
+      "Rendement moyen (50%), utilisé pour la Hi-Fi, faible distorsion",
+      "Rendement de 100%, aucune harmonique, courant de repos maximal"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "La classe C est très efficace énergétiquement car le transistor ne conduit que pendant de courtes impulsions, mais elle nécessite des filtres de sortie pour éliminer les nombreuses harmoniques créées."
+  },
+  {
+    "id": "TD423",
+    "theme": "Technique",
+    "text": "Un amplificateur HF en classe A ($U=800~V$, $I=130~mA$). Quelle puissance utile peut-il fournir environ ?",
+    "options": [
+      "$\\approx 40~W$",
+      "$\\approx 100~W$",
+      "$\\approx 60~W$",
+      "$\\approx 80~W$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Puissance absorbée $P_{dc} = 800 \\times 0,13 = 104~W$. En classe A, le rendement théorique max est de $50\\%$, mais en pratique il tourne autour de $30$-$40\\%$. $104 \\times 0,4 \\approx 41,6~W$. La réponse la plus proche est $40~W$."
+  },
+  {
+    "id": "TD424",
+    "theme": "Technique",
+    "text": "Un amplificateur HF en classe C ($U=800~V$, $I=130~mA$). Quelle puissance utile peut-il fournir environ ?",
+    "options": [
+      "$\\approx 80~W$",
+      "$\\approx 60~W$",
+      "$\\approx 40~W$",
+      "$\\approx 100~W$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Puissance absorbée $= 104~W$. En classe C, le rendement est très élevé, environ $75$-$80\\%$. $104 \\times 0,77 \\approx 80~W$."
+  },
+  {
+    "id": "TD430",
+    "theme": "Technique",
+    "text": "Quel type de circuit est représenté (Deux transistors alimentés en opposition par transformateur) ?",
+    "options": [
+      "Amplificateur push-pull large bande",
+      "Doubleur de fréquence",
+      "Amplificateur sélectif",
+      "Modulateur de phase"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "C'est un montage symétrique (Push-Pull). Chaque transistor amplifie une alternance du signal, ce qui permet d'annuler les harmoniques paires et de couvrir une large bande de fréquences."
+  },
+  {
+    "id": "TD501",
+    "theme": "Technique",
+    "text": "Ce circuit utilisant un mélangeur équilibré et un oscillateur de battement est un :",
+    "options": [
+      "Détecteur de produit pour démoduler la BLU (SSB)",
+      "Détecteur d'enveloppe pour l'AM",
+      "Modulateur de fréquence",
+      "Discriminateur de phase"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Pour démoduler la BLU, il faut recréer la porteuse manquante à l'aide d'un BFO (Oscillateur de battement) et mélanger le tout dans un détecteur de produit."
+  }
+]
