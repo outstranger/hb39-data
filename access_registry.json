@@ -1,4 +1,5 @@
 {
-  "PRES-LOT1": "[https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/database_prescriptions_lot1.json](https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/database_prescriptions_lot1.json)",
-  "TECH-FULL": "[https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/database_technique_complet.json](https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/database_technique_complet.json)"
+  "PRES-LOT1": "https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/database_prescriptions_lot1.json",
+  "TECH-FULL": "https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/database_technique_complet.json",
+  "DEMO": "https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/demo.json"
 }
