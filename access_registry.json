@@ -1,5 +1,5 @@
 {
-  "dre@m-PRES-2025": "https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/database_prescriptions_lot1.json",
+  "dre@m-PRES-2025": "https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/hb39_db_prescriptions.json",
   "dre@m-TECH-2025": "https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/database_technique_complet.json",
   "DEMO-2025": "https://raw.githubusercontent.com/ton-pseudo/hb39-data/main/demo.json"
 }
