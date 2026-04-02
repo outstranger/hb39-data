@@ -1,0 +1,1827 @@
+[
+  {
+    "id": "AF_AV_001",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_001 : Quelle est la puissance de crête de l'émetteur qui ne doit pas être dépassée sur la fréquence $14\\,295~kHz$ pour une autorisation radioamateur (HB9)?",
+    "options": [
+      "$100~Watt$",
+      "$1000~Watt$",
+      "$25~Watt$",
+      "Aucune restriction"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Pour les titulaires d'une concession HB9, la puissance maximale autorisée sur les bandes HF (comme le $20~m$) est de $1000~W$ PEP."
+  },
+  {
+    "id": "AF_AV_002",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_002 : Quelle est la puissance de crête de l'émetteur qui ne doit pas être dépassée sur la fréquence $21\\,324~kHz$ pour une autorisation radioamateur NOVICE (HB3)?",
+    "options": [
+      "$100~Watt$",
+      "$1000~Watt$",
+      "$25~Watt$",
+      "$10~Watt$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Les titulaires d'une autorisation NOVICE (HB3) sont limités à une puissance de crête de $100~W$ sur les bandes HF autorisées."
+  },
+  {
+    "id": "AF_AV_003",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_003 : À qui sont octroyées les autorisations permettant l'utilisation d'une installation de radiocommunication non desservie?",
+    "options": [
+      "Personnes physiques et associations de radioamateurs",
+      "Uniquement à des associations de radioamateurs",
+      "Uniquement à l'Union des amateurs suisses d'ondes courtes",
+      "Chaque amateur possédant un indicatif d'appel a le droit d'installer une station non desservie"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 150' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='30' width='300' height='80' fill='#f8fafc' stroke='#64748b' stroke-width='2' rx='10'/><path d='M120 70 h160' stroke='#cbd5e1' stroke-width='1'/><text x='200' y='65' text-anchor='middle' font-family='Arial' font-size='14' font-weight='bold' fill='#1e293b'>ASSOCIATION DE RADIOAMATEURS</text><text x='200' y='100' text-anchor='middle' font-family='Arial' font-size='10' fill='#ef4444' font-weight='bold'>EXCLUSIVITÉ (Art. 31 OGC)</text></svg>",
+    "explanation": "Selon l'Art. 31 al. 3 de l'OGC, la concession pour une installation non desservie (relais, balises) n'est octroyée qu'à des associations."
+  },
+  {
+    "id": "AF_AV_004",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_004 : À qui sont octroyées les autorisations permettant l'utilisation d'une installation de radiocommunication non desservie?",
+    "options": [
+      "Uniquement à des associations de radioamateurs",
+      "Aucune attribution d'indicatif d'appel n'est nécessaire",
+      "Uniquement à des radioamateurs avec un certificat de radiotélégraphiste",
+      "Uniquement à des radioamateurs avec l'autorisation spéciale de l'OFCOM"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "L'exploitation d'installations non desservies est réservée aux associations de radioamateurs enregistrées auprès de l'OFCOM."
+  },
+  {
+    "id": "AF_AV_005",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_005 : Quelles mesures le radioamateur est-il tenu de prendre pour éviter les perturbations ?",
+    "options": [
+      "Il doit éviter toute émission inutile",
+      "Il doit diminuer de $50\\%$ la puissance d'émission lors d'essais",
+      "Il ne doit prendre aucune mesure spéciale",
+      "Le fil d'antenne doit être isolé"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><path d='M50 80 Q 100 20 150 80 T 250 80' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='5,5'/><circle cx='250' cy='80' r='5' fill='#ef4444'/><text x='200' y='110' text-anchor='middle' font-family='Arial' font-size='12' font-weight='bold' fill='#1e293b'>ÉVITER TOUTE ÉMISSION INUTILE</text></svg>",
+    "explanation": "Pour garantir la bonne gestion du spectre, le radioamateur doit minimiser le temps d'émission et éviter les signaux superflus."
+  },
+  {
+    "id": "AF_AV_021",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_021 : Laquelle des bandes ci-dessous est également disponible pour d'autres usagers des radiocommunications pouvant l'utiliser en priorité ?",
+    "options": [
+      "$438,000$ - $440,000~MHz$",
+      "$1,240$ - $1,260~GHz$",
+      "$7,000$ - $7,100~MHz$",
+      "$24,000$ - $24,050~GHz$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "La bande $438-440~MHz$ est en statut secondaire. Les radioamateurs doivent accepter les brouillages des services primaires et ne pas les perturber."
+  },
+  {
+    "id": "AF_AV_022",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_022 : Laquelle des bandes de fréquences ci-dessous ne peut être utilisée qu'avec l'autorisation de l'OFCOM ?",
+    "options": [
+      "$144,000$ - $146,000~MHz$",
+      "$1,240$ - $1,260~GHz$",
+      "$47,000$ - $47,200~GHz$",
+      "$248,000$ - $250,000~GHz$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "L'utilisation de la bande des $23~cm$ ($1,2~GHz$) est soumise à des restrictions de puissance et des conditions spécifiques pour protéger le système Galileo."
+  },
+  {
+    "id": "AF_AV_023",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_023 : Laquelle des affirmations ci-dessous est valable pour la bande de fréquences de $430$ à $435~MHz$ ?",
+    "options": [
+      "Cette bande ne peut être utilisée que par les titulaires d'une autorisation NOVICE (HB3)",
+      "Cette bande ne peut être utilisée qu'avec l'autorisation de l'OFCOM",
+      "Cette bande est également disponible pour d'autres usagers des radiocommunications, qui peuvent l'utiliser en priorité",
+      "La puissance admise dans cette bande est de $1~Watt$ ERP au maximum"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Le segment $430-435~MHz$ est attribué au service amateur à titre secondaire en Suisse."
+  },
+  {
+    "id": "AF_AV_024",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_024 : Lesquelles des informations ci-dessous peuvent être transmises avec une station de radioamateur ?",
+    "options": [
+      "Les communications impliquant un acte juridique",
+      "Les informations provenant de tiers ou destinées à des tiers",
+      "Tout genre d'informations sans restriction",
+      "Des informations de nature technique portant sur des essais d'émission et de réception"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Selon l'Art. 33 OGC, les échanges doivent porter sur la technique radio, des essais, ou des messages personnels sans importance majeure."
+  },
+  {
+    "id": "AF_AV_025",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_025 : Un message provenant de tiers peut-il être retransmis d'un radioamateur à un autre ?",
+    "options": [
+      "Oui, les messages d'un radioamateur destinés à un autre peuvent toujours être retransmis",
+      "Non, des informations provenant des tiers ou destinées à des tiers ne doivent pas être transmises",
+      "Oui, seulement si le message est écrit en code Morse",
+      "Oui, tous les types de messages personnels peuvent être transmis"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Le trafic pour le compte de tiers (tiers non licenciés) est interdit dans le service amateur international."
+  },
+  {
+    "id": "AF_AV_027",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_027 : Quels sont les messages pouvant être transmis au moyen d'une installation amateur ?",
+    "options": [
+      "Toutes les sortes de messages à l'exception des communications personnelles",
+      "Toutes les sortes de messages, même les actes juridiques",
+      "Seuls sont admis les messages de nature technique (essais), les communications personnelles et les communications de détresse",
+      "Toutes les sortes de messages, même pour le compte de tiers"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Le service amateur est un service d'auto-instruction et d'études techniques. Les messages doivent respecter ce cadre légal."
+  },
+  {
+    "id": "AF_AV_028",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_028 : Une installation de radioamateur peut-elle être exploitée dans un aéronef ?",
+    "options": [
+      "Oui, sans condition",
+      "Non, c'est strictement interdit",
+      "Uniquement jusqu'à une altitude de vol de $300~m$",
+      "Uniquement si le pilote y consent"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='360' height='110' fill='#f8fafc' stroke='#64748b' stroke-width='2' rx='15'/><path d='M120 70 L280 70 M200 40 L200 100 M150 55 L250 55' stroke='#1e293b' stroke-width='6' stroke-linecap='round'/><text x='200' y='120' text-anchor='middle' font-family='Arial' font-size='12' font-weight='bold' fill='#e11d48'>ACCORD DU PILOTE OBLIGATOIRE</text></svg>",
+    "explanation": "L'Art. 33 al. 3 de l'OGC autorise l'usage en avion à condition d'avoir l'autorisation formelle du commandant de bord."
+  },
+  {
+    "id": "AF_AV_031",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_031 : Un détenteur d'une autorisation radioamateur est-il autorisé à réaliser des adaptations de la partie émettrice de ses appareils ?",
+    "options": [
+      "Oui, mais seulement s'il est détenteur d'une autorisation radioamateur (HB9)",
+      "Non, c'est interdit par le constructeur",
+      "Seulement avec l'autorisation préalable de l'OFCOM",
+      "Oui, mais seulement pour réparer une panne simple"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Seule la licence CEPT (HB9) confère le droit de construire ou de modifier la partie émettrice de l'installation."
+  },
+  {
+    "id": "AF_AV_032",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_032 : Le détenteur d'une autorisation radioamateur NOVICE (HB3) est-il autorisé à construire lui-même un émetteur et à l'utiliser ?",
+    "options": [
+      "Non, il ne peut exploiter que des installations en vente dans le commerce (matériel de série)",
+      "Oui, si l'émetteur ne dépasse pas $10~Watt$",
+      "Seulement avec l'autorisation de son club radio",
+      "Seulement sous la surveillance d'un HB9"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Le titulaire HB3 doit utiliser des appareils commerciaux non modifiés dans leur partie émettrice (Art. 33 al. 5 OGC)."
+  },
+  {
+    "id": "AF_AV_033",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_033 : Le détenteur d'une autorisation radioamateur NOVICE (HB3) est-il autorisé à réaliser des adaptations sur ses appareils ?",
+    "options": [
+      "Oui, sans aucune restriction",
+      "Non, aucune modification n'est permise",
+      "Oui, à condition que l'adaptation ne concerne pas la partie émettrice",
+      "Seulement s'il remplace des câbles externes"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='30' width='120' height='60' fill='#dcfce7' stroke='#16a34a' stroke-width='2' rx='10'/><rect x='230' y='30' width='120' height='60' fill='#fee2e2' stroke='#dc2626' stroke-width='2' rx='10'/><text x='110' y='65' text-anchor='middle' font-size='10' font-weight='bold'>RÉCEPTION OK</text><text x='290' y='65' text-anchor='middle' font-size='10' font-weight='bold'>ÉMISSION INTERDITE</text><path d='M170 60 h60' stroke='#94a3b8' stroke-dasharray='4'/></svg>",
+    "explanation": "Les adaptations sur l'affichage, l'audio ou la réception sont permises pour un HB3, mais la partie émettrice doit rester d'origine."
+  },
+  {
+    "id": "AF_AV_034",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_034 : Quelle adjonction à l'indicatif d'appel doit être utilisée si une station est opérée à un autre emplacement temporaire ?",
+    "options": [
+      "/P (Portable)",
+      "/A (Adresse temporaire)",
+      "/M (Mobile)",
+      "/EXT (Extérieur)"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "L'adjonction « /P » (Portable) est utilisée pour une station fixe à un emplacement autre que celui mentionné sur la concession."
+  },
+  {
+    "id": "AF_AV_008",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_008 : Combien de fois l'indicatif d'appel doit-il être émis au cours d'une communication?",
+    "options": [
+      "Lors de l'établissement de la communication, puis toutes les dix minutes",
+      "Toutes les dix minutes",
+      "Toutes les cinq minutes environ",
+      "Il suffit que l'indicatif d'appel soit émis lors de l'établissement de la communication"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "L'indicatif doit être transmis au début, à la fin et à intervalles réguliers de 10 minutes maximum durant la liaison."
+  },
+  {
+    "id": "AF_AV_009",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_009 : Quand l'indicatif d'appel d'une station de radioamateur doit-il être émis ?",
+    "options": [
+      "Au début et à la fin de chaque communication ainsi qu'à des intervalles ne dépassant pas 10 minutes",
+      "Seulement si la station adverse le demande avec le code QRZ?",
+      "Uniquement lors des communications avec l'étranger",
+      "Une seule fois par heure d'exploitation"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "C'est l'obligation légale d'identification pour permettre le contrôle des fréquences par l'autorité."
+  },
+  {
+    "id": "AF_AV_017",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_017 : Si vous êtes détenteur d'une autorisation radioamateur (HB9), êtes-vous autorisé à utiliser une station de radioamateur sur la fréquence $24,010~GHz$ ?",
+    "options": [
+      "Non",
+      "Seulement avec l'autorisation de l'OFCOM",
+      "Oui",
+      "Oui, mais d'autres usagers des radiocommunications peuvent utiliser la fréquence en priorité"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='360' height='60' fill='#f1f5f9' stroke='#64748b' rx='10'/><text x='100' y='65' text-anchor='middle' font-size='12' font-weight='bold' fill='#64748b'>SERVICE PRIMAIRE</text><line x1='190' y1='40' x2='190' y2='80' stroke='#cbd5e1' stroke-width='2'/><text x='280' y='65' text-anchor='middle' font-size='12' font-weight='bold' fill='#3b82f6'>AMATEUR (SECONDAIRE)</text></svg>",
+    "explanation": "Sur cette fréquence, le service amateur est secondaire, ce qui signifie qu'il ne doit pas causer de brouillages aux services primaires."
+  },
+  {
+    "id": "AF_AV_026",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_026 : Quelle est la stabilité de fréquence requise pour un émetteur ?",
+    "options": [
+      "Aussi stable que l'état de la technique le permet",
+      "La tolérance est de $\\pm 10~kHz$ pour toutes les bandes",
+      "Elle n'est pas réglementée en Suisse",
+      "Elle dépend uniquement de la température de la station"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Les émetteurs doivent respecter les règles de l'art pour éviter les dérives de fréquence hors des bandes autorisées."
+  },
+  {
+    "id": "AF_AV_029",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_029 : Quelle adjonction à l'indicatif d'appel doit être utilisée si une station est opérée à une autre adresse temporaire fixe ?",
+    "options": [
+      "/A",
+      "/P",
+      "/M",
+      "/EXT"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='30' width='300' height='60' fill='#fffbeb' stroke='#f59e0b' rx='10'/><text x='200' y='68' text-anchor='middle' font-family='Arial' font-size='24' font-weight='black' fill='#1e293b'>INDICATIF /A</text></svg>",
+    "explanation": "L'adjonction /A est utilisée pour une station exploitée à un emplacement fixe autre que l'adresse officielle."
+  },
+  {
+    "id": "AF_AV_030",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_030 : Quelle adjonction est utilisée spécifiquement lors du Jamboree sur les ondes (JOTA) ?",
+    "options": [
+      "/J",
+      "/S",
+      "/SC",
+      "/P"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Le suffixe /J est réservé à l'événement scout international Jamboree On The Air."
+  },
+  {
+    "id": "AF_AV_041",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_041 : L'utilisation d'une station à distance (Remote Station) est-elle autorisée ?",
+    "options": [
+      "Oui, si l'opérateur garde le contrôle effectif et l'identification de la station",
+      "Non, c'est strictement interdit pour les particuliers",
+      "Seulement pour les titulaires HB3",
+      "Uniquement après accord écrit de l'USKA"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "L'opérateur doit rester responsable des émissions et l'indicatif de la station distante doit être conforme."
+  },
+  {
+    "id": "AF_AV_042",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_042 : La transmission de musique par une station de radioamateur est-elle autorisée ?",
+    "options": [
+      "Non, strictement interdit",
+      "Oui, mais seulement pour des tests audio",
+      "Oui, si le volume est faible",
+      "Seulement pendant les concours"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Le service de radioamateur est un service technique d'auto-instruction; la diffusion de divertissement est proscrite."
+  },
+  {
+    "id": "AF_AV_046",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_046 : HB9XX exploite sa station à bord d'un bateau à moteur naviguant sur le lac de Neuchâtel. Par quelle adjonction l'indicatif peut-il être complété ?",
+    "options": [
+      "Mobile (/M)",
+      "Maritime mobile (/MM)",
+      "Portable (/P)",
+      "Aucune adjonction n'est admise"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 150' xmlns='http://www.w3.org/2000/svg'><path d='M50 100 Q 150 80 250 100 T 350 100' fill='none' stroke='#0ea5e9' stroke-width='3'/><path d='M150 100 L170 70 L230 70 L250 100 Z' fill='#1e293b'/><text x='200' y='130' text-anchor='middle' font-weight='bold' fill='#1e293b'>NAVIGATION INTÉRIEURE = /M</text></svg>",
+    "explanation": "Pour les lacs et rivières suisses (navigation intérieure), on utilise le suffixe /M. Le suffixe /MM est réservé à la haute mer."
+  },
+  {
+    "id": "AF_AV_048",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_048 : Faut-il obligatoirement tenir un livre de bord (logbook) ?",
+    "options": [
+      "L'OFCOM peut exiger de l'amateur qu'il enregistre ses communications",
+      "Oui, c'est obligatoire pour tous les contacts",
+      "Seulement si l'on utilise une puissance de $1000~W$",
+      "Non, ce n'est plus du tout d'actualité"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "L'obligation systématique a été levée, mais l'autorité garde le droit d'imposer la tenue d'un log pour des motifs de surveillance."
+  },
+  {
+    "id": "AF_AV_006",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_006 : Quelles mesures le radioamateur est-il tenu de prendre pour éviter les perturbations ?",
+    "options": [
+      "Il ne doit prendre aucune mesure spéciale",
+      "Limiter la puissance rayonnée au minimum nécessaire pour assurer une communication satisfaisante et éviter les transmissions inutiles",
+      "Il ne peut utiliser les fréquences attribuées par l'autorité concédante que si elles sont libres; il doit éviter toute émission inutile",
+      "Il ne peut utiliser les fréquences attribuées par l'autorité concédante que si elles sont libres; il doit éviter toute émission inutile et diminuer de $50\\%$ la puissance d'émission lors d'essais"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Le radioamateur doit toujours utiliser la puissance minimale nécessaire ($QRP$ si possible) pour ne pas encombrer le spectre inutilement."
+  },
+  {
+    "id": "AF_AV_007",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_007 : Combien de fois l'indicatif d'appel doit-il être émis ?",
+    "options": [
+      "Trois fois lors de l'établissement de la communication, ensuite ce n'est plus nécessaire",
+      "Une fois lors de l'établissement de la communication, puis toutes les deux minutes",
+      "Uniquement si une autre station émet QRZ?",
+      "Lors de l'établissement de la communication, puis toutes les dix minutes"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 150' xmlns='http://www.w3.org/2000/svg'><circle cx='200' cy='75' r='50' fill='none' stroke='#3b82f6' stroke-width='4'/><path d='M200 35 V75 L230 75' stroke='#ef4444' stroke-width='4' stroke-linecap='round'/><text x='200' y='140' text-anchor='middle' font-family='Arial' font-size='14' font-weight='bold' fill='#1e293b'>IDENTIFICATION : INTERVALLE 10 MIN</text></svg>",
+    "explanation": "L'identification est une obligation légale (Art. 3 OOGC) : au début du contact, puis à intervalles de $10$ minutes."
+  },
+  {
+    "id": "AF_AV_010",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_010 : Quelle autorisation radioamateur permet l'utilisation de toutes les bandes prévues pour le service de radioamateur ?",
+    "options": [
+      "L'autorisation radioamateur NOVICE (HB3)",
+      "L'autorisation radioamateur (HB9)",
+      "Les deux types d'autorisation radioamateur",
+      "Les titulaires du certificat de capacité pour radioamateurs peuvent utiliser les bandes sans autorisation"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "La licence $HB9$ (CEPT HAREC) donne accès à l'intégralité du spectre alloué au service amateur en Suisse, contrairement à la licence $HB3$."
+  },
+  {
+    "id": "AF_AV_011",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_011 : Avec quelle autorisation radioamateur une station peut-elle être exploitée avec une puissance maximale de $50~Watt$ sur la bande de fréquences de $144$ à $146~MHz$ ?",
+    "options": [
+      "Avec l'autorisation radioamateur (HB9)",
+      "Avec l'autorisation radioamateur NOVICE (HB3)",
+      "Avec toutes les autorisations radioamateur",
+      "Les bandes au dessus de $30~MHz$ peuvent être exploitées sans autorisation"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "La licence $HB3$ (Novice) est limitée à $50~W$ $PEP$ sur la bande des $2~m$ ($144-146~MHz$)."
+  },
+  {
+    "id": "AF_AV_012",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_012 : Avec quelle autorisation radioamateur une station peut-elle être exploitée avec une puissance maximale de $1000~Watt$ sur la bande de fréquences de $430$ à $440~MHz$ ?",
+    "options": [
+      "Les bandes au dessus de $30~MHz$ peuvent être exploitées sans autorisation",
+      "Avec l'autorisation radioamateur NOVICE (HB3)",
+      "Avec l'autorisation radioamateur (HB9)",
+      "Avec l'autorisation radioamateur (HB9) et l'autorisation radioamateur NOVICE (HB3)"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Seule l'autorisation $HB9$ permet d'émettre avec une puissance allant jusqu'à $1000~W$ $PEP$ sur la bande $70~cm$."
+  },
+  {
+    "id": "AF_AV_013",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_013 : La bande de fréquences de $50$ à $52~MHz$ peut-elle être exploitée par le détenteur d'une autorisation radioamateur NOVICE (HB3) ?",
+    "options": [
+      "Oui",
+      "Non",
+      "Non, seulement les associations de radioamateurs peuvent utiliser cette bande",
+      "Oui, mais seulement avec l'autorisation de l'OFCOM"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "La bande des $6~m$ ($50-52~MHz$) n'est pas autorisée pour les titulaires de la licence Novice ($HB3$) en Suisse."
+  },
+  {
+    "id": "AF_AV_014",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_014 : Comment la bande de $7,100$ à $7,200~MHz$ peut-elle être exploitée ?",
+    "options": [
+      "Sans aucune restriction",
+      "Seulement avec une puissance de $100~W$ au maximum, la bande est également disponible pour d'autres usagers des radiocommunications qui peuvent l'utiliser en priorité",
+      "La bande n'est pas à disposition des radioamateurs",
+      "La bande ne peut être utilisée qu'avec une autorisation de l'OFCOM"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Dans certaines régions ou selon des accords spécifiques, des segments de bandes peuvent être en statut secondaire, obligeant à ne pas perturber les services primaires."
+  },
+  {
+    "id": "AF_AV_015",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_015 : La bande de fréquences de $50$ à $52~MHz$ peut-elle être exploitée par un détenteur d'une autorisation radioamateur (HB9) ?",
+    "options": [
+      "Non",
+      "Oui, avec une puissance maximale d'émission de $100~W$",
+      "Oui, mais seulement avec l'autorisation de l'OFCOM",
+      "La bande est exclusivement réservée aux détenteurs d'une autorisation radioamateur NOVICE (HB3)"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Les titulaires $HB9$ peuvent utiliser les $6~m$ avec une limite de puissance de $100~W$ $PEP$ (Statut secondaire)."
+  },
+  {
+    "id": "AF_AV_016",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_016 : Le détenteur d'une autorisation radioamateur (HB9) est-il autorisé à exploiter une installation sur la fréquence $24,15~GHz$ ?",
+    "options": [
+      "Non",
+      "Oui, mais d'autres usagers des radiocommunications peuvent utiliser la fréquence en priorité",
+      "Seulement avec l'autorisation de l'OFCOM",
+      "Oui, après information préalable à l'OFCOM"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='360' height='60' fill='#f1f5f9' stroke='#64748b' stroke-width='2' rx='10'/><text x='100' y='65' text-anchor='middle' font-family='Arial' font-size='12' font-weight='bold' fill='#64748b'>SERVICE PRIMAIRE</text><line x1='190' y1='40' x2='190' y2='80' stroke='#cbd5e1' stroke-width='2'/><text x='280' y='65' text-anchor='middle' font-family='Arial' font-size='12' font-weight='bold' fill='#3b82f6'>AMATEUR (SECONDAIRE)</text></svg>",
+    "explanation": "À $24~GHz$, le service amateur est en statut secondaire ($b$ dans l'ordonnance), signifiant qu'il ne doit pas causer de brouillage aux services prioritaires."
+  },
+  {
+    "id": "AF_AV_018",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_018 : Laquelle des bandes de fréquences ci-dessous ne peut être utilisée qu'avec l'autorisation de l'OFCOM ?",
+    "options": [
+      "$431,000$ - $438,000~MHz$",
+      "$1,260$ - $1,300~GHz$",
+      "$2,312$ - $2,450~GHz$",
+      "$10,000$ - $10,500~GHz$"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Certaines portions de la bande des $13~cm$ ($2,3~GHz$) sont soumises à des restrictions particulières ou des autorisations spécifiques de l'autorité concédante."
+  },
+  {
+    "id": "AF_AV_019",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_019 : Votre station amateur perturbe une installation commerciale de télécommande opérant sur $433,5~MHz$. Qui a la priorité ?",
+    "options": [
+      "L'installation commerciale de télécommande",
+      "La station amateur",
+      "Ni l'une ni l'autre des installations",
+      "L'installation ayant la puissance d'émission la moins élevée"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Les applications $ISM/LPD$ (télécommandes) sur $433~MHz$ ont souvent la priorité ou le service amateur doit accepter les perturbations sans en créer aux services officiels."
+  },
+  {
+    "id": "AF_AV_020",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_020 : Que faut-il observer avant de faire des essais dans la bande de fréquences de $1,240$ à $1,260~GHz$ ?",
+    "options": [
+      "L'autorisation de l'OFCOM doit être demandée",
+      "La puissance d'émission autorisée est restreinte",
+      "Il n'y a pas de restrictions",
+      "Une concession d'essai de radiocommunication supplémentaire doit être demandée à l'OFCOM"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Dans la bande des $23~cm$, la puissance est limitée pour protéger les systèmes de radionavigation par satellite (Galileo)."
+  },
+  {
+    "id": "AF_AV_035",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_035 : Quelle adjonction à l'indicatif d'appel peut être utilisée si une station de radioamateur est opérée à bord d'un bateau en mer ?",
+    "options": [
+      "/MM",
+      "/M",
+      "/P",
+      "/SM"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='360' height='110' fill='#f0f9ff' stroke='#0ea5e9' stroke-width='2' rx='15'/><path d='M100 100 Q 150 80 200 100 T 300 100' fill='none' stroke='#0369a1' stroke-width='3'/><path d='M150 100 L170 60 L230 60 L250 100 Z' fill='#1e293b'/><text x='200' y='125' text-anchor='middle' font-family='Arial' font-size='14' font-weight='bold' fill='#1e293b'>/MM (MARITIME MOBILE)</text></svg>",
+    "explanation": "L'adjonction « /MM » est réservée aux stations opérant en haute mer (eaux internationales)."
+  },
+  {
+    "id": "AF_AV_036",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_036 : Quelle adjonction à l'indicatif d'appel peut être utilisée si une station de radioamateur est opérée à bord d'un aéronef ?",
+    "options": [
+      "/AM",
+      "/ANF",
+      "/P",
+      "/M"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "L'adjonction « /AM » signifie « Aeronautical Mobile »."
+  },
+  {
+    "id": "AF_AV_037",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_037 : Quelle adjonction à l'indicatif d'appel peut être utilisée si une station de radioamateur est opérée à bord d'un véhicule terrestre ?",
+    "options": [
+      "/ANF",
+      "/M",
+      "/P",
+      "/MM"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "L'adjonction « /M » signifie « Mobile » et s'applique aux véhicules terrestres et à la navigation intérieure."
+  },
+  {
+    "id": "AF_AV_038",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_038 : Quelle adjonction à l'indicatif d'appel peut être utilisée si une station de radioamateur est opérée à bord d'un bateau servant à la navigation intérieure (ex: lac suisse) ?",
+    "options": [
+      "/NI",
+      "/M",
+      "/MM",
+      "/SM"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Pour les lacs et rivières suisses (navigation intérieure), on utilise « /M » et non « /MM »."
+  },
+  {
+    "id": "AF_AV_039",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_039 : Comment doit être émis l'indicatif d'appel HB9XYZ si la station est opérée dans la Principauté de Liechtenstein ?",
+    "options": [
+      "FL/HB9XYZ",
+      "HB9XYZ/FL",
+      "HB0/HB9XYZ",
+      "HB9/HB0XYZ"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 150' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='360' height='110' fill='#fffbeb' stroke='#f59e0b' stroke-width='2' rx='15'/><text x='200' y='60' text-anchor='middle' font-family='Arial' font-size='12' font-weight='bold' fill='#92400e'>LIECHTENSTEIN (CEPT)</text><text x='200' y='100' text-anchor='middle' font-family='Arial' font-size='24' font-weight='black' fill='#1e293b'>HB0 / INDICATIF</text></svg>",
+    "explanation": "Selon les accords entre la Suisse et le Liechtenstein, un HB9 doit utiliser le préfixe « HB0/ »."
+  },
+  {
+    "id": "AF_AV_040",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_040 : Que signifie l'indicatif d'appel HB0/HB9XYZ ?",
+    "options": [
+      "Un radioamateur du Liechtenstein exploite son installation en Suisse",
+      "Un radioamateur suisse exploite son installation dans la principauté de Liechtenstein",
+      "Une telle combinaison n'est pas autorisée",
+      "La station HB9XYZ opère via une station relais"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Cela indique une opération temporaire d'un licencié suisse dans la Principauté."
+  },
+  {
+    "id": "AF_AV_043",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_043 : Vous êtes appelé par la station HB9BPK/M. Où est-il possible que l'installation soit exploitée ?",
+    "options": [
+      "L'installation est exploitée sur un bateau sur un lac suisse",
+      "L'installation est exploitée sur un yacht en haute mer",
+      "L'installation est exploitée dans un ballon",
+      "L'installation est exploitée à un autre emplacement que d'habitude"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "« /M » désigne soit un véhicule terrestre, soit un bateau en navigation intérieure (lac/rivière)."
+  },
+  {
+    "id": "AF_AV_044",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_044 : Vous êtes appelé par la station HB9BPK/AM. Où est-il possible que l'installation soit exploitée ?",
+    "options": [
+      "L'installation est exploitée sur un bateau sur un lac suisse",
+      "L'installation est exploitée sur un yacht en haute mer",
+      "L'installation est exploitée dans un aéronef (ex: ballon)",
+      "L'installation est exploitée à un autre emplacement que d'habitude"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "L'adjonction « /AM » est spécifique aux mobiles aéronautiques."
+  },
+  {
+    "id": "AF_AV_045",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_045 : Vous êtes appelé par la station HB9BPK/MM. Où l'installation est-elle exploitée ?",
+    "options": [
+      "L'installation est exploitée à un autre emplacement que d'habitude",
+      "L'installation est exploitée dans un ballon",
+      "L'installation est exploitée sur un navire en haute mer",
+      "L'installation est exploitée sur un bateau sur un lac suisse"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "« /MM » est l'abréviation de Maritime Mobile, utilisé uniquement en mer."
+  },
+  {
+    "id": "AF_AV_047",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_047 : Les radioamateurs sont-ils obligés de tenir un journal de bord (logbook) ?",
+    "options": [
+      "Oui, chaque communication radio doit être enregistrée",
+      "Seulement lors des concours",
+      "Non, l'obligation systématique a été levée",
+      "L'OFCOM peut exiger du radioamateur qu'il enregistre ses communications radio"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "En Suisse, la tenue du logbook n'est plus obligatoire par défaut, mais l'OFCOM se réserve le droit de l'exiger sur demande (Art. 35 OGC)."
+  },
+  {
+    "id": "AF_AV_049",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_049 : Comment une largeur de bande de $7~kHz$ est-elle exprimée selon la nomenclature ?",
+    "options": [
+      "7K00",
+      "7KH",
+      "K700",
+      "0.7K"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Dans la désignation des émissions, la lettre de l'unité remplace la virgule. $7,00~kHz$ devient $7K00$."
+  },
+  {
+    "id": "AF_AV_050",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_050 : Comment une largeur de bande de $1,8~kHz$ est-elle exprimée ?",
+    "options": [
+      "1,8K",
+      "1K80",
+      "1800H",
+      "K180"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "La notation correcte est $1K80$ (1 kiloHertz 80)."
+  },
+  {
+    "id": "AF_AV_051",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_051 : Comment une largeur de bande de $10,4~kHz$ est-elle exprimée selon la nomenclature officielle ?",
+    "options": [
+      "10K",
+      "10K4",
+      "K104",
+      "10,4KH"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Dans la désignation des émissions, l'unité remplace la virgule. $10,4~kHz$ devient donc $10K4$."
+  },
+  {
+    "id": "AF_AV_052",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_052 : Comment une largeur de bande de $12~MHz$ est-elle exprimée ?",
+    "options": [
+      "12M",
+      "12MH",
+      "12M0",
+      "M12"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "La notation correcte pour $12,0~MHz$ est $12M0$."
+  },
+  {
+    "id": "AF_AV_053",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_053 : Comment une largeur de bande de $3~MHz$ est-elle exprimée ?",
+    "options": [
+      "3MH",
+      "MH3",
+      "3000K",
+      "3M00"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Suivant la même règle, $3,00~MHz$ s'écrit $3M00$."
+  },
+  {
+    "id": "AF_AV_054",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_054 : Quel symbole désigne le type de modulation lors d'une émission avec double bande latérale (DSB) ?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><path d='M100 100 V40 M300 100 V40 M200 100 V20' stroke='#1e293b' stroke-width='2'/><path d='M100 40 L200 20 L300 40' fill='none' stroke='#3b82f6' stroke-width='2' stroke-dasharray='4'/><text x='200' y='115' text-anchor='middle' font-family='Arial' font-size='12' font-weight='bold' fill='#64748b'>SYMBOLE A (Double Bande)</text></svg>",
+    "explanation": "Le symbole **A** désigne la modulation d'amplitude avec double bande latérale (ex: A3E)."
+  },
+  {
+    "id": "AF_AV_055",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_055 : Quel symbole désigne la modulation lors d'une émission avec bande latérale unique (BLU), onde porteuse supprimée ?",
+    "options": [
+      "R",
+      "H",
+      "J",
+      "Z"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Le symbole **J** désigne spécifiquement la BLU avec porteuse supprimée (ex: J3E)."
+  },
+  {
+    "id": "AF_AV_056",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_056 : Quel symbole désigne le type de modulation lors d'une émission avec modulation de fréquence (FM) ?",
+    "options": [
+      "F",
+      "G",
+      "H",
+      "J"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Le symbole **F** est utilisé pour la modulation de fréquence (ex: F3E)."
+  },
+  {
+    "id": "AF_AV_057",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_057 : Quel symbole désigne la modulation lors d'une émission avec bandes latérales indépendantes ?",
+    "options": [
+      "C",
+      "B",
+      "A",
+      "D"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Le symbole **B** désigne les émissions à bandes latérales indépendantes."
+  },
+  {
+    "id": "AF_AV_058",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_058 : Quel symbole désigne le type d'information transmis en télégraphie pour réception auditive (Morse) ?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Dans la classification à trois caractères, le troisième caractère **A** désigne la télégraphie pour réception auditive."
+  },
+  {
+    "id": "AF_AV_059",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_059 : Quel symbole désigne la transmission de données, la télémesure ou la télécommande ?",
+    "options": [
+      "D",
+      "A",
+      "B",
+      "C"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Le symbole **D** correspond à la transmission de données (Data)."
+  },
+  {
+    "id": "AF_AV_060",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_060 : Quel symbole désigne le type d'information transmis lors de télévision (vidéo) ?",
+    "options": [
+      "E",
+      "A",
+      "F",
+      "V"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Le symbole **F** désigne la télévision (vidéo)."
+  },
+  {
+    "id": "AF_AV_061",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_061 : À quelle gamme de fréquences l'abréviation « HF » correspond-elle ?",
+    "options": [
+      "$300$ à $3000~kHz$",
+      "$30$ à $300~MHz$",
+      "$3$ à $30~GHz$",
+      "$3$ à $30~MHz$"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 80' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='360' height='40' fill='#f1f5f9' stroke='#64748b' stroke-width='2' rx='10'/><text x='200' y='45' text-anchor='middle' font-family='Arial' font-size='14' font-weight='black' fill='#1e293b'>HF : 3 - 30 MHz</text></svg>",
+    "explanation": "HF signifie « High Frequency » (Hautes Fréquences), couvrant de $3$ à $30~MHz$."
+  },
+  {
+    "id": "AF_AV_062",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_062 : À quelle gamme de fréquences l'abréviation « VHF » correspond-elle ?",
+    "options": [
+      "$30$ à $300~kHz$",
+      "$30$ à $300~MHz$",
+      "$3$ à $3000~kHz$",
+      "$300$ à $3000~GHz$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "VHF signifie « Very High Frequency », couvrant de $30$ à $300~MHz$."
+  },
+  {
+    "id": "AF_AV_063",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_063 : À quelle gamme de fréquences l'abréviation « UHF » correspond-elle ?",
+    "options": [
+      "$300$ à $3000~GHz$",
+      "$300$ à $3000~MHz$",
+      "$300$ à $3000~kHz$",
+      "$3$ à $30~kHz$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "UHF signifie « Ultra High Frequency », couvrant de $300$ à $3000~MHz$ ($3~GHz$)."
+  },
+  {
+    "id": "AF_AV_064",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_064 : À quelle gamme de fréquences l'abréviation « SHF » correspond-elle ?",
+    "options": [
+      "$3$ à $30~GHz$",
+      "$30$ à $300~GHz$",
+      "$300$ à $3000~GHz$",
+      "$300$ à $3000~MHz$"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "SHF signifie « Super High Frequency », couvrant de $3$ à $30~GHz$."
+  },
+  {
+    "id": "AF_AV_065",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_065 : Comment la gamme de fréquences de $3$ à $30~MHz$ est-elle désignée ?",
+    "options": [
+      "MF",
+      "LF",
+      "HF",
+      "VHF"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Il s'agit de la gamme HF."
+  },
+  {
+    "id": "AF_AV_066",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_066 : Comment la gamme de fréquences de $30$ à $300~MHz$ est-elle désignée ?",
+    "options": [
+      "LF",
+      "VHF",
+      "UHF",
+      "SHF"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Il s'agit de la gamme VHF."
+  },
+  {
+    "id": "AF_AV_067",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_067 : Comment la gamme de fréquences de $300$ à $3000~MHz$ est-elle désignée ?",
+    "options": [
+      "Ondes décimillimétriques",
+      "UHF",
+      "VHF",
+      "VLF"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 100' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='30' width='360' height='40' fill='#f1f5f9' stroke='#64748b' stroke-width='2' rx='10'/><text x='200' y='55' text-anchor='middle' font-family='Arial' font-size='14' font-weight='black' fill='#1e293b'>UHF : 300 - 3000 MHz</text></svg>",
+    "explanation": "UHF signifie « Ultra High Frequency ». Cette gamme correspond aux ondes décimétriques."
+  },
+  {
+    "id": "AF_AV_068",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_068 : Comment la gamme de fréquences de $3$ à $30~GHz$ est-elle désignée ?",
+    "options": [
+      "VHF",
+      "UHF",
+      "SHF",
+      "EHF"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "SHF signifie « Super High Frequency », couvrant les fréquences de $3$ à $30~GHz$."
+  },
+  {
+    "id": "AF_AV_069",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_069 : Comment la subdivision métrique pour la gamme de fréquences de $300$ à $3000~MHz$ est-elle désignée ?",
+    "options": [
+      "Ondes décimétriques",
+      "Ondes centimétriques",
+      "Ondes millimétriques",
+      "Ondes métriques"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "À $300~MHz$, la longueur d'onde est de $1~m$. À $3000~MHz$ ($3~GHz$), elle est de $10~cm$. On parle donc d'ondes décimétriques."
+  },
+  {
+    "id": "AF_AV_070",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_070 : Comment appelle-t-on la gamme de fréquences comprenant la fréquence $3560~kHz$ ?",
+    "options": [
+      "MF",
+      "HF",
+      "VHF",
+      "UHF"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "$3560~kHz$ ($3,56~MHz$) se situe dans la bande des $80~m$, qui appartient à la gamme HF ($3$ à $30~MHz$)."
+  },
+  {
+    "id": "AF_AV_071",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_071 : Comment appelle-t-on la gamme de fréquences comprenant la fréquence $144,5~MHz$ ?",
+    "options": [
+      "MF",
+      "HF",
+      "VHF",
+      "UHF"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "$144,5~MHz$ appartient à la gamme VHF ($30$ à $300~MHz$)."
+  },
+  {
+    "id": "AF_AV_072",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_072 : À quel type de transmission l'abréviation A1A correspond-elle ?",
+    "options": [
+      "Télégraphie, code Morse",
+      "Télégraphie à impression directe",
+      "Fac-similé",
+      "Télécommande"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 100' xmlns='http://www.w3.org/2000/svg'><path d='M40 50 h20 v-30 h40 v30 h20 v-30 h10 v30 h30 v-30 h40 v30' fill='none' stroke='#3b82f6' stroke-width='3'/><text x='200' y='80' text-anchor='middle' font-family='Arial' font-size='12' font-weight='bold' fill='#1e293b'>A1A : MORSE (PORTEUSE DÉCOUPÉE)</text></svg>",
+    "explanation": "A1A désigne la télégraphie par interruption de la porteuse non modulée, pour réception auditive (Morse)."
+  },
+  {
+    "id": "AF_AV_073",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_073 : À quel type de transmission l'abréviation A1B correspond-elle ?",
+    "options": [
+      "Télégraphie, code Morse",
+      "Télégraphie à impression directe",
+      "Fac-similé",
+      "Télécommande"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Le suffixe **B** indique une réception automatique (téléimprimeur / RTTY)."
+  },
+  {
+    "id": "AF_AV_074",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_074 : À quel type de transmission l'abréviation J3E correspond-elle ?",
+    "options": [
+      "Télévision (vidéo)",
+      "Téléphonie",
+      "Fac-similé",
+      "Télégraphie à impression directe"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "J3E est le code officiel pour la téléphonie en Bande Latérale Unique (BLU) avec porteuse supprimée."
+  },
+  {
+    "id": "AF_AV_075",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_075 : À quel type de transmission l'abréviation R3E correspond-elle ?",
+    "options": [
+      "Télévision (vidéo)",
+      "Téléphonie",
+      "Fac-similé",
+      "Télégraphie à impression directe"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "R3E est une forme de téléphonie BLU avec porteuse réduite (pilote)."
+  },
+  {
+    "id": "AF_AV_076",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_076 : À quel type de transmission l'abréviation F3E correspond-elle ?",
+    "options": [
+      "Télégraphie, code Morse",
+      "Téléphonie",
+      "Fac-similé",
+      "Télévision (vidéo)"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "F3E désigne la téléphonie en modulation de fréquence (FM)."
+  },
+  {
+    "id": "AF_AV_077",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_077 : Que signifie J3E ?",
+    "options": [
+      "Téléphonie, double bande latérale",
+      "Télévision (vidéo), bande latérale unique, porteuse supprimée",
+      "Fac-similé, bande latérale unique, porteuse supprimée",
+      "Téléphonie, bande latérale unique, porteuse supprimée, un seul canal contenant l'information analogique"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "C'est la définition complète du mode SSB (Single Side Band) utilisé massivement en HF."
+  },
+  {
+    "id": "AF_AV_078",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_078 : Comment une émission en télégraphie à impression directe est-elle désignée si la porteuse principale est modulée en amplitude et sans sous porteuse modulée ?",
+    "options": [
+      "A1A",
+      "A1B",
+      "A1C",
+      "A1D"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "L'absence de sous-porteuse et la modulation d'amplitude avec décodage automatique correspondent à A1B."
+  },
+  {
+    "id": "AF_AV_079",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_079 : Comment une émission en télégraphie, code Morse, est-elle désignée si la porteuse principale est modulée en fréquence et sans sous porteuse modulée ?",
+    "options": [
+      "F1A",
+      "F1B",
+      "F1C",
+      "F1D"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Modulation de fréquence (F), porteuse directe sans sous-porteuse (1) et réception auditive (A) donnent F1A."
+  },
+  {
+    "id": "AF_AV_080",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_080 : Comment une émission en télégraphie à impression directe est-elle désignée si la porteuse principale est modulée en fréquence avec sous porteuse modulée ?",
+    "options": [
+      "F2A",
+      "F2B",
+      "F2C",
+      "F2D"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "La présence d'une sous-porteuse modulée est désignée par le chiffre 2. L'impression directe par B. Soit F2B."
+  },
+  {
+    "id": "AF_AV_081",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_081 : Comment une émission en téléphonie avec un seul canal contenant l'information analogique est-elle désignée si la porteuse principale est modulée en fréquence ?",
+    "options": [
+      "F3C",
+      "F3E",
+      "F3F",
+      "F3A"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "La téléphonie analogique (voix) est toujours désignée par le suffixe E. En FM, c'est F3E."
+  },
+  {
+    "id": "AF_AV_082",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_082 : Que signifie $16K0F3E$ ?",
+    "options": [
+      "Téléphonie, modulation de fréquence, écart des canaux $16~kHz$",
+      "Téléphonie, modulation de fréquence, largeur de bande $16~kHz$",
+      "Télévision, largeur de bande $16~kHz$",
+      "Télégraphie, largeur de bande $16~kHz$"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Les quatre premiers caractères ($16K0$) indiquent la largeur de bande nécessaire ($16,0~kHz$)."
+  },
+  {
+    "id": "AF_AV_083",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_083 : Que signifie le code QRM ?",
+    "options": [
+      "Je suis brouillé",
+      "Je ne suis pas brouillé",
+      "Je suis troublé par des parasites atmosphériques",
+      "Je suis en émission mobile"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='360' height='80' fill='#fee2e2' stroke='#ef4444' stroke-width='2' rx='10'/><path d='M100 60 l20-20 m10 0 l20 20 m10 0 l20-20' stroke='#ef4444' stroke-width='4' fill='none'/><text x='200' y='65' text-anchor='middle' font-family='Arial' font-size='16' font-weight='black' fill='#991b1b'>QRM : BROUILLAGE HUMAIN</text></svg>",
+    "explanation": "QRM désigne une interférence causée par une autre station ou une activité humaine."
+  },
+  {
+    "id": "AF_AV_084",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_084 : Que signifie le code QRN ?",
+    "options": [
+      "Je suis brouillé",
+      "Je ne suis pas brouillé",
+      "Je suis troublé par des parasites atmosphériques",
+      "Je ne suis pas en route"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='360' height='80' fill='#fef3c7' stroke='#d97706' stroke-width='2' rx='10'/><path d='M100 40 l10 40 l10-20 l10 20 l10-40' stroke='#d97706' stroke-width='3' fill='none'/><text x='210' y='65' text-anchor='middle' font-family='Arial' font-size='16' font-weight='black' fill='#92400e'>QRN : PARASITES NATURELS</text></svg>",
+    "explanation": "QRN désigne les bruits d'origine naturelle (éclairs, atmosphère)."
+  },
+  {
+    "id": "AF_AV_085",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_085 : Que signifie le code QRO ?",
+    "options": [
+      "Augmentez la puissance d'émission",
+      "Diminuez la puissance d'émission",
+      "Je peux retransmettre à...",
+      "Je ne vais pas retransmettre à..."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "QRO est la demande ou l'avis d'augmenter la puissance."
+  },
+  {
+    "id": "AF_AV_086",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_086 : Que signifie le code QRP ?",
+    "options": [
+      "Augmentez la puissance d'émission",
+      "Diminuez la puissance d'émission",
+      "Je peux retransmettre à...",
+      "Je ne vais pas retransmettre à..."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "QRP est l'instruction de réduire la puissance (désigne aussi les stations de faible puissance)."
+  },
+  {
+    "id": "AF_AV_087",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_087 : Que signifie le code QRT ?",
+    "options": [
+      "L'heure exacte est...",
+      "Cessez la transmission",
+      "Je suis prêt",
+      "Ma position est..."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='360' height='80' fill='#f1f5f9' stroke='#475569' stroke-width='2' rx='10'/><circle cx='100' cy='60' r='20' fill='#ef4444'/><path d='M90 60 h20' stroke='white' stroke-width='4'/><text x='220' y='65' text-anchor='middle' font-family='Arial' font-size='16' font-weight='black' fill='#1e293b'>QRT : FIN DE L'ÉMISSION</text></svg>",
+    "explanation": "QRT indique que la station cesse d'émettre ou ferme."
+  },
+  {
+    "id": "AF_AV_088",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_088 : Que signifie le code QRV ?",
+    "options": [
+      "Je ne suis pas prêt",
+      "Transmettez une série de V",
+      "Je suis prêt",
+      "Ma position est..."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "QRV signifie que vous êtes prêt à opérer ou à recevoir un message."
+  },
+  {
+    "id": "AF_AV_089",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_089 : Que signifie le code QRX ?",
+    "options": [
+      "Je suis à l'écoute sur...",
+      "Passez à la transmission sur...",
+      "Vous êtes appelé par...",
+      "Je vous rappellerai à... heures"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "QRX est utilisé pour demander une attente ou indiquer un rappel ultérieur."
+  },
+  {
+    "id": "AF_AV_090",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_090 : Que signifie le code QRZ ?",
+    "options": [
+      "Transmettez chaque mot deux fois",
+      "Je suis prêt",
+      "Vous êtes appelé par... (indicatif)",
+      "Passez à la transmission sur..."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "QRZ ? est la question classique pour savoir qui appelle."
+  },
+  {
+    "id": "AF_AV_091",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_091 : Que signifie le code QSB ?",
+    "options": [
+      "Je peux retransmettre à...",
+      "La force de vos signaux varie",
+      "Émettez sur Single Side Band",
+      "Votre manipulation est défectueuse"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><path d='M50 80 Q 100 20 150 80 T 250 80 T 350 80' fill='none' stroke='#3b82f6' stroke-width='3' stroke-dasharray='4'/><text x='200' y='100' text-anchor='middle' font-family='Arial' font-size='14' font-weight='black' fill='#1e293b'>QSB : FADING / ÉVANOUISSEMENT</text></svg>",
+    "explanation": "QSB désigne les variations cycliques d'intensité du signal (fading)."
+  },
+  {
+    "id": "AF_AV_092",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_092 : Que signifie le code QSL ?",
+    "options": [
+      "Je suis occupé",
+      "Je vous donne accusé de réception",
+      "Transmettez plus lentement",
+      "Transmettez plus vite"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "QSL confirme la réception correcte du message ou du contact."
+  },
+  {
+    "id": "AF_AV_093",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_093 : Que signifie le code QSO ?",
+    "options": [
+      "Augmentez la puissance",
+      "Diminuez la puissance",
+      "Je vous donne accusé de réception",
+      "Je peux communiquer avec..."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "QSO désigne une communication directe établie entre deux stations."
+  },
+  {
+    "id": "AF_AV_094",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_094 : Que signifie le code QSY ?",
+    "options": [
+      "Votre tour est arrivé",
+      "Transmettez une série de V",
+      "Passez à la transmission sur... (fréquence)",
+      "Ma station est à bord d'un yacht"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "QSY est le signal pour changer de fréquence de travail."
+  },
+  {
+    "id": "AF_AV_095",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_095 : Que signifie le code QTH ?",
+    "options": [
+      "J'habite à...",
+      "Ma position est...",
+      "Votre fréquence varie",
+      "Cessez la transmission"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "QTH indique l'emplacement géographique de la station (coordonnées ou ville)."
+  },
+  {
+    "id": "AF_AV_096",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_096 : Quel est le code pour « Je suis brouillé » ?",
+    "options": [
+      "QRM",
+      "QSM",
+      "QSA",
+      "QRN"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "C'est l'inverse de la question AF_AV_083."
+  },
+  {
+    "id": "AF_AV_097",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_097 : Quel est le code pour « Je suis troublé par des parasites » ?",
+    "options": [
+      "QRM",
+      "QSM",
+      "QSA",
+      "QRN"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Le code QRN est spécifique aux parasites naturels."
+  },
+  {
+    "id": "AF_AV_098",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_098 : Quel est le code pour « Augmentez la puissance d'émission » ?",
+    "options": [
+      "QRH",
+      "QRP",
+      "QRO",
+      "QRC"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "QRO (puissance haute) vs QRP (puissance basse)."
+  },
+  {
+    "id": "AF_AV_099",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_099 : Quel est le code pour « Diminuez la puissance d'émission » ?",
+    "options": [
+      "QRH",
+      "QRP",
+      "QRO",
+      "QRC"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='360' height='80' fill='#f0f9ff' stroke='#0369a1' stroke-width='2' rx='10'/><path d='M100 40 L100 80 M80 60 L100 80 L120 60' stroke='#0369a1' stroke-width='4' fill='none'/><text x='220' y='65' text-anchor='middle' font-family='Arial' font-size='16' font-weight='black' fill='#1e293b'>QRP : RÉDUIRE LA PUISSANCE</text></svg>",
+    "explanation": "QRP est utilisé pour demander de baisser la puissance ou pour indiquer une station de faible puissance."
+  },
+  {
+    "id": "AF_AV_100",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_100 : Quel est le code pour « Cessez la transmission » ?",
+    "options": [
+      "QRT",
+      "QRV",
+      "QRU",
+      "QRL"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "QRT signifie la fin de l'émission ou la fermeture de la station."
+  },
+  {
+    "id": "AF_AV_101",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_101 : Quel est le code pour « Je suis prêt » ?",
+    "options": [
+      "QRT",
+      "QRV",
+      "QRU",
+      "QRL"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "QRV signifie que la station est prête à opérer ou à recevoir du trafic."
+  },
+  {
+    "id": "AF_AV_102",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_102 : Quel est le code pour « Je vous rappellerai à $1500$ heures » ?",
+    "options": [
+      "QRA 1500",
+      "QRT 1500",
+      "QRX 1500",
+      "QRL 1500"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "QRX suivi d'une heure indique un rendez-vous ou une attente jusqu'à ce moment."
+  },
+  {
+    "id": "AF_AV_103",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_103 : Quel est le code pour « Vous êtes appelé par HB9XYZ » ?",
+    "options": [
+      "QRA HB9XYZ",
+      "QSO HB9XYZ",
+      "QRX HB9XYZ",
+      "QRZ HB9XYZ"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "QRZ ? est la question « Qui m'appelle ? ». QRZ HB9XYZ est l'avis que HB9XYZ appelle."
+  },
+  {
+    "id": "AF_AV_104",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_104 : Quel est le code pour « La force de vos signaux varie » ?",
+    "options": [
+      "QSP",
+      "QSB",
+      "QRB",
+      "QSD"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><path d='M50 80 Q 100 20 150 80 T 250 80 T 350 80' fill='none' stroke='#3b82f6' stroke-width='3' stroke-dasharray='4'/><text x='200' y='100' text-anchor='middle' font-family='Arial' font-size='14' font-weight='black' fill='#1e293b'>QSB : ÉVANOUISSEMENT (FADING)</text></svg>",
+    "explanation": "QSB désigne le fading, une variation cyclique ou aléatoire de l'intensité du signal reçu."
+  },
+  {
+    "id": "AF_AV_105",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_105 : Quel est le code pour « Je vous donne accusé de réception » ?",
+    "options": [
+      "QRL",
+      "QSL",
+      "QRX",
+      "QTH"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "QSL confirme que le message a été bien reçu et compris."
+  },
+  {
+    "id": "AF_AV_106",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_106 : Quel est le code pour « Je peux communiquer avec... directement » ?",
+    "options": [
+      "QRV",
+      "QSZ",
+      "QSO",
+      "QRO"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "QSO désigne une communication bilatérale établie entre deux stations."
+  },
+  {
+    "id": "AF_AV_107",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_107 : Que signifie l'abréviation « UR » ?",
+    "options": [
+      "L'emplacement de la station est dans le canton d'Uri",
+      "Communication radio instable",
+      "Votre",
+      "Union of Radioamateurs"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "UR est l'abréviation de « Your » (votre/vos) en langage radio."
+  },
+  {
+    "id": "AF_AV_108",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_108 : Que signifie l'abréviation « RX » ?",
+    "options": [
+      "Merci",
+      "Émetteur",
+      "Récepteur",
+      "Tonalité"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "RX est l'abréviation universelle pour le récepteur (Receiver)."
+  },
+  {
+    "id": "AF_AV_109",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_109 : Que signifie l'abréviation « RST » ?",
+    "options": [
+      "Readability, Signal strength, Tone quality",
+      "Report of silent traffic",
+      "Receiver seems to be in trouble",
+      "Received several transmissions"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='30' width='100' height='60' fill='#dcfce7' stroke='#16a34a' stroke-width='2' rx='10'/><rect x='150' y='30' width='100' height='60' fill='#dcfce7' stroke='#16a34a' stroke-width='2' rx='10'/><rect x='250' y='30' width='100' height='60' fill='#dcfce7' stroke='#16a34a' stroke-width='2' rx='10'/><text x='100' y='65' text-anchor='middle' font-weight='bold'>R (1-5)</text><text x='200' y='65' text-anchor='middle' font-weight='bold'>S (1-9)</text><text x='300' y='65' text-anchor='middle' font-weight='bold'>T (1-9)</text></svg>",
+    "explanation": "Le rapport RST permet de juger la lisibilité (R), la force (S) et la tonalité (T) du signal."
+  },
+  {
+    "id": "AF_AV_110",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_110 : Que signifie l'abréviation « TX » ?",
+    "options": [
+      "Merci",
+      "Émetteur",
+      "Récepteur",
+      "Tonalité"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "TX est l'abréviation universelle pour l'émetteur (Transmitter)."
+  },
+  {
+    "id": "AF_AV_111",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_111 : Comment épelle-t-on le mot « Novembre » selon l'alphabet international ?",
+    "options": [
+      "Niklaus Otto Veronika Emil Michael Bern Emil Roger",
+      "November Oscar Victor Echo Mike Bravo Echo Romeo",
+      "November Oscar Venice Echo Miami Bristol Echo Roma",
+      "November Olympia Victor Ever Mike Berne Ever Romeo"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "L'alphabet phonétique de l'OACI est la norme internationale pour l'épellation radio."
+  },
+  {
+    "id": "AF_AV_112",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_112 : Comment épelle-t-on le mot « Foxtrott » ?",
+    "options": [
+      "Foxtrott Olympia Xaver Theodor Roma Olympia Theodor Theodor",
+      "Foxtrott Oscar Xylophon Trudi Romeo Oscar Trudi Trudi",
+      "Foxtrott Oscar X-Ray Tango Romeo Oscar Tango Tango",
+      "Foxtrott Olma X-Ray Tango Romeo Olma Tango Tango"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Épellation correcte : Foxtrot, Oscar, X-ray, Tango, Romeo, Oscar, Tango, Tango."
+  },
+  {
+    "id": "AF_AV_113",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_113 : Comment épelle-t-on le mot « Whiskey » ?",
+    "options": [
+      "Whiskey Help Ida Sierra Karl Echo Yankee",
+      "Whiskey Hotel Iris Sophie Karl Emil Yankee",
+      "Whiskey Hans Ida Sophie Karl Echo Yvonne",
+      "Whiskey Hotel India Sierra Kilo Echo Yankee"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Épellation OACI : Whiskey, Hotel, India, Sierra, Kilo, Echo, Yankee."
+  },
+  {
+    "id": "AF_AV_114",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_114 : Comment épelle-t-on le mot « Charlie » ?",
+    "options": [
+      "Charlie Hotel Anna Roger Lima Ida Echo",
+      "Charlie Hotel Alpha Romeo Lima India Echo",
+      "Charlie Hotel America Romeo London Italy England",
+      "Charlie Hotel Alpha Romeo London India Europe"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Épellation OACI : Charlie, Hotel, Alpha, Romeo, Lima, India, Echo."
+  },
+  {
+    "id": "AF_AV_115",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_115 : Comment épelle-t-on le mot « Olten » selon l'alphabet international ?",
+    "options": [
+      "October, Lima, Tango, Echo, November",
+      "Oscar, Lima, Tango, Echo, November",
+      "Oscar, Lima, Tanga, Emil, November",
+      "Oscar, London, Tango, Echo, Nova"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "L'épellation correcte selon l'alphabet OACI est : Oscar, Lima, Tango, Echo, November."
+  },
+  {
+    "id": "AF_AV_116",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_116 : Comment épelle-t-on le groupe HLCEP ?",
+    "options": [
+      "Hotel, Lima, Charlie, Echo, Papa",
+      "Hypolit, Lima, Carlo, Echo, Papa",
+      "Hypolit, Lima, Charlie, Echo, Papa",
+      "Hotel, Lima, Charlie, Emil, Papa"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 100' xmlns='http://www.w3.org/2000/svg'><rect x='20' y='20' width='360' height='60' fill='#f1f5f9' stroke='#64748b' stroke-width='2' rx='10'/><text x='200' y='55' text-anchor='middle' font-family='Arial' font-size='14' font-weight='black' fill='#1e293b'>H L C E P</text><text x='200' y='75' text-anchor='middle' font-family='Arial' font-size='10' fill='#64748b' font-weight='bold'>Hotel Lima Charlie Echo Papa</text></svg>",
+    "explanation": "Chaque lettre correspond à un mot standardisé pour éviter les confusions phonétiques."
+  },
+  {
+    "id": "AF_AV_117",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_117 : À quoi un radioamateur doit-il être attentif lorsqu'il importe directement un appareil radio de l'étranger sans passer par un revendeur suisse ?",
+    "options": [
+      "Le radioamateur peut importer librement sans vérification grâce à ses connaissances techniques.",
+      "Il ne doit veiller à rien de particulier, hormis le paiement des frais de douane et de la TVA.",
+      "Il est juridiquement considéré comme un importateur et doit veiller lui-même au respect des prescriptions de conformité.",
+      "Il peut utiliser un appareil non conforme car les radioamateurs sont exemptés d'homologation."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 150' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='20' width='300' height='100' fill='#fee2e2' stroke='#dc2626' stroke-width='2' rx='15'/><path d='M180 50 l40 40 m0 -40 l-40 40' stroke='#dc2626' stroke-width='6'/><text x='200' y='140' text-anchor='middle' font-family='Arial' font-size='12' font-weight='black' fill='#991b1b'>RESPONSABILITÉ DE L'IMPORTATEUR</text></svg>",
+    "explanation": "L'importateur direct assume la responsabilité légale de la conformité de l'appareil aux normes suisses et européennes."
+  },
+  {
+    "id": "AF_AV_118",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_118 : Quelle est la différence juridique entre l'achat d'un appareil chez un revendeur suisse et une importation directe (ex: commande en Asie) ?",
+    "options": [
+      "Il n'y a aucune différence, la liberté de commerce s'applique.",
+      "Le revendeur suisse est responsable de la conformité. En importation directe, c'est le radioamateur qui devient juridiquement responsable.",
+      "La responsabilité incombe uniquement au fabricant étranger.",
+      "Si un revendeur suisse vend déjà le même modèle, l'importation directe est couverte par sa responsabilité."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "En achetant localement, la responsabilité de la mise sur le marché (conformité) repose sur le vendeur suisse."
+  },
+  {
+    "id": "AF_AV_119",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_119 : Un radioamateur HB9 peut-il modifier, puis mettre en service une installation radio figurant sur la liste des appareils non conformes de l'OFCOM ?",
+    "options": [
+      "Oui, car il dispose des connaissances techniques nécessaires.",
+      "Oui, car cette liste ne concerne pas les radioamateurs licenciés.",
+      "Non, il est soumis aux mêmes règles que les non-radioamateurs concernant les appareils interdits.",
+      "Oui, mais il est limité à trois appareils par an."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "La liste noire de l'OFCOM s'applique à tous. Un licencié ne peut pas contourner l'interdiction d'utiliser du matériel jugé non conforme."
+  },
+  {
+    "id": "AF_AV_120",
+    "theme": "Prescriptions",
+    "text": "Question AF_AV_120 : Un radioamateur HB9 peut-il revendre un émetteur qu'il a construit lui-même à un radioamateur novice (HB3) ?",
+    "options": [
+      "Oui, si les bandes de fréquences non autorisées au HB3 sont bloquées.",
+      "Non, un titulaire HB3 ne peut utiliser que des émetteurs radio conformes vendus dans le commerce.",
+      "Oui, si le vendeur s'assure que l'acheteur possède un certificat de capacité.",
+      "Oui, toutes les classes peuvent construire et modifier librement leurs appareils."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "imageSVG": "<svg viewBox='0 0 400 120' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='30' width='120' height='60' fill='#dcfce7' stroke='#16a34a' rx='10'/><rect x='230' y='30' width='120' height='60' fill='#fee2e2' stroke='#dc2626' rx='10'/><text x='110' y='65' text-anchor='middle' font-size='10' font-weight='bold'>HB9 (HOMEBREW)</text><path d='M170 60 h60' stroke='#ef4444' stroke-width='2' stroke-dasharray='4'/><circle cx='200' cy='60' r='5' fill='#ef4444'/><text x='290' y='65' text-anchor='middle' font-size='10' font-weight='bold'>HB3 (COMMERCIAL)</text></svg>",
+    "explanation": "L'autorisation HB3 est limitée à l'exploitation de matériel industriel certifié. Les constructions personnelles sont réservées aux HB9."
+  }
+]
