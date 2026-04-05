@@ -12,7 +12,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Pour les titulaires d'une concession HB9, la puissance maximale autorisée sur les bandes HF (comme le $20~m$) est de $1000~W$ PEP."
+    "explanation": "Pour les titulaires d'une concession HB9, la puissance maximale autorisée sur les bandes HF (comme le $20~m$) est de $1000~W$ PEP.",
+    "points": 5
   },
   {
     "id": "AF_AV_002",
@@ -27,7 +28,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Les titulaires d'une autorisation NOVICE (HB3) sont limités à une puissance de crête de $100~W$ sur les bandes HF autorisées."
+    "explanation": "Les titulaires d'une autorisation NOVICE (HB3) sont limités à une puissance de crête de $100~W$ sur les bandes HF autorisées.",
+    "points": 5
   },
   {
     "id": "AF_AV_003",
@@ -44,7 +46,8 @@
     ],
     "imageSVG": null,
     "explanation": "Selon l'Art. 31 al. 3 de l'OGC, la concession pour une installation non desservie (relais, balises) n'est octroyée qu'à des associations.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_004",
@@ -59,7 +62,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "L'exploitation d'installations non desservies est réservée aux associations de radioamateurs enregistrées auprès de l'OFCOM."
+    "explanation": "L'exploitation d'installations non desservies est réservée aux associations de radioamateurs enregistrées auprès de l'OFCOM.",
+    "points": 5
   },
   {
     "id": "AF_AV_005",
@@ -76,7 +80,8 @@
     ],
     "imageSVG": null,
     "explanation": "Pour garantir la bonne gestion du spectre, le radioamateur doit minimiser le temps d'émission et éviter les signaux superflus.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_021",
@@ -91,7 +96,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "La bande $438-440~MHz$ est en statut secondaire. Les radioamateurs doivent accepter les brouillages des services primaires et ne pas les perturber."
+    "explanation": "La bande $438-440~MHz$ est en statut secondaire. Les radioamateurs doivent accepter les brouillages des services primaires et ne pas les perturber.",
+    "points": 5
   },
   {
     "id": "AF_AV_022",
@@ -106,7 +112,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "L'utilisation de la bande des $23~cm$ ($1,2~GHz$) est soumise à des restrictions de puissance et des conditions spécifiques pour protéger le système Galileo."
+    "explanation": "L'utilisation de la bande des $23~cm$ ($1,2~GHz$) est soumise à des restrictions de puissance et des conditions spécifiques pour protéger le système Galileo.",
+    "points": 5
   },
   {
     "id": "AF_AV_023",
@@ -121,7 +128,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Le segment $430-435~MHz$ est attribué au service amateur à titre secondaire en Suisse."
+    "explanation": "Le segment $430-435~MHz$ est attribué au service amateur à titre secondaire en Suisse.",
+    "points": 5
   },
   {
     "id": "AF_AV_024",
@@ -136,7 +144,8 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "Selon l'Art. 33 OGC, les échanges doivent porter sur la technique radio, des essais, ou des messages personnels sans importance majeure."
+    "explanation": "Selon l'Art. 33 OGC, les échanges doivent porter sur la technique radio, des essais, ou des messages personnels sans importance majeure.",
+    "points": 5
   },
   {
     "id": "AF_AV_025",
@@ -151,7 +160,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Le trafic pour le compte de tiers (tiers non licenciés) est interdit dans le service amateur international."
+    "explanation": "Le trafic pour le compte de tiers (tiers non licenciés) est interdit dans le service amateur international.",
+    "points": 5
   },
   {
     "id": "AF_AV_027",
@@ -166,7 +176,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Le service amateur est un service d'auto-instruction et d'études techniques. Les messages doivent respecter ce cadre légal."
+    "explanation": "Le service amateur est un service d'auto-instruction et d'études techniques. Les messages doivent respecter ce cadre légal.",
+    "points": 5
   },
   {
     "id": "AF_AV_028",
@@ -183,7 +194,8 @@
     ],
     "imageSVG": null,
     "explanation": "L'Art. 33 al. 3 de l'OGC autorise l'usage en avion à condition d'avoir l'autorisation formelle du commandant de bord.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_031",
@@ -198,7 +210,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Seule la licence CEPT (HB9) confère le droit de construire ou de modifier la partie émettrice de l'installation."
+    "explanation": "Seule la licence CEPT (HB9) confère le droit de construire ou de modifier la partie émettrice de l'installation.",
+    "points": 5
   },
   {
     "id": "AF_AV_032",
@@ -213,7 +226,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Le titulaire HB3 doit utiliser des appareils commerciaux non modifiés dans leur partie émettrice (Art. 33 al. 5 OGC)."
+    "explanation": "Le titulaire HB3 doit utiliser des appareils commerciaux non modifiés dans leur partie émettrice (Art. 33 al. 5 OGC).",
+    "points": 5
   },
   {
     "id": "AF_AV_033",
@@ -230,7 +244,8 @@
     ],
     "imageSVG": null,
     "explanation": "Les adaptations sur l'affichage, l'audio ou la réception sont permises pour un HB3, mais la partie émettrice doit rester d'origine.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_034",
@@ -245,7 +260,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "L'adjonction « /P » (Portable) est utilisée pour une station fixe à un emplacement autre que celui mentionné sur la concession."
+    "explanation": "L'adjonction « /P » (Portable) est utilisée pour une station fixe à un emplacement autre que celui mentionné sur la concession.",
+    "points": 5
   },
   {
     "id": "AF_AV_008",
@@ -260,7 +276,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "L'indicatif doit être transmis au début, à la fin et à intervalles réguliers de 10 minutes maximum durant la liaison."
+    "explanation": "L'indicatif doit être transmis au début, à la fin et à intervalles réguliers de 10 minutes maximum durant la liaison.",
+    "points": 5
   },
   {
     "id": "AF_AV_009",
@@ -275,7 +292,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "C'est l'obligation légale d'identification pour permettre le contrôle des fréquences par l'autorité."
+    "explanation": "C'est l'obligation légale d'identification pour permettre le contrôle des fréquences par l'autorité.",
+    "points": 5
   },
   {
     "id": "AF_AV_017",
@@ -292,7 +310,8 @@
     ],
     "imageSVG": null,
     "explanation": "Sur cette fréquence, le service amateur est secondaire, ce qui signifie qu'il ne doit pas causer de brouillages aux services primaires.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_026",
@@ -307,7 +326,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Les émetteurs doivent respecter les règles de l'art pour éviter les dérives de fréquence hors des bandes autorisées."
+    "explanation": "Les émetteurs doivent respecter les règles de l'art pour éviter les dérives de fréquence hors des bandes autorisées.",
+    "points": 5
   },
   {
     "id": "AF_AV_029",
@@ -324,7 +344,8 @@
     ],
     "imageSVG": null,
     "explanation": "L'adjonction /A est utilisée pour une station exploitée à un emplacement fixe autre que l'adresse officielle.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_030",
@@ -339,7 +360,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Le suffixe /J est réservé à l'événement scout international Jamboree On The Air."
+    "explanation": "Le suffixe /J est réservé à l'événement scout international Jamboree On The Air.",
+    "points": 5
   },
   {
     "id": "AF_AV_041",
@@ -354,7 +376,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "L'opérateur doit rester responsable des émissions et l'indicatif de la station distante doit être conforme."
+    "explanation": "L'opérateur doit rester responsable des émissions et l'indicatif de la station distante doit être conforme.",
+    "points": 5
   },
   {
     "id": "AF_AV_042",
@@ -369,7 +392,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Le service de radioamateur est un service technique d'auto-instruction; la diffusion de divertissement est proscrite."
+    "explanation": "Le service de radioamateur est un service technique d'auto-instruction; la diffusion de divertissement est proscrite.",
+    "points": 5
   },
   {
     "id": "AF_AV_046",
@@ -386,7 +410,8 @@
     ],
     "imageSVG": null,
     "explanation": "Pour les lacs et rivières suisses (navigation intérieure), on utilise le suffixe /M. Le suffixe /MM est réservé à la haute mer.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_048",
@@ -401,7 +426,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "L'obligation systématique a été levée, mais l'autorité garde le droit d'imposer la tenue d'un log pour des motifs de surveillance."
+    "explanation": "L'obligation systématique a été levée, mais l'autorité garde le droit d'imposer la tenue d'un log pour des motifs de surveillance.",
+    "points": 5
   },
   {
     "id": "AF_AV_006",
@@ -416,7 +442,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Le radioamateur doit toujours utiliser la puissance minimale nécessaire ($QRP$ si possible) pour ne pas encombrer le spectre inutilement."
+    "explanation": "Le radioamateur doit toujours utiliser la puissance minimale nécessaire ($QRP$ si possible) pour ne pas encombrer le spectre inutilement.",
+    "points": 5
   },
   {
     "id": "AF_AV_007",
@@ -433,7 +460,8 @@
     ],
     "imageSVG": null,
     "explanation": "L'identification est une obligation légale (Art. 3 OOGC) : au début du contact, puis à intervalles de $10$ minutes.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_010",
@@ -448,7 +476,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "La licence $HB9$ (CEPT HAREC) donne accès à l'intégralité du spectre alloué au service amateur en Suisse, contrairement à la licence $HB3$."
+    "explanation": "La licence $HB9$ (CEPT HAREC) donne accès à l'intégralité du spectre alloué au service amateur en Suisse, contrairement à la licence $HB3$.",
+    "points": 5
   },
   {
     "id": "AF_AV_011",
@@ -463,7 +492,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "La licence $HB3$ (Novice) est limitée à $50~W$ $PEP$ sur la bande des $2~m$ ($144-146~MHz$)."
+    "explanation": "La licence $HB3$ (Novice) est limitée à $50~W$ $PEP$ sur la bande des $2~m$ ($144-146~MHz$).",
+    "points": 5
   },
   {
     "id": "AF_AV_012",
@@ -478,7 +508,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Seule l'autorisation $HB9$ permet d'émettre avec une puissance allant jusqu'à $1000~W$ $PEP$ sur la bande $70~cm$."
+    "explanation": "Seule l'autorisation $HB9$ permet d'émettre avec une puissance allant jusqu'à $1000~W$ $PEP$ sur la bande $70~cm$.",
+    "points": 5
   },
   {
     "id": "AF_AV_013",
@@ -493,7 +524,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "La bande des $6~m$ ($50-52~MHz$) n'est pas autorisée pour les titulaires de la licence Novice ($HB3$) en Suisse."
+    "explanation": "La bande des $6~m$ ($50-52~MHz$) n'est pas autorisée pour les titulaires de la licence Novice ($HB3$) en Suisse.",
+    "points": 5
   },
   {
     "id": "AF_AV_014",
@@ -508,7 +540,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Dans certaines régions ou selon des accords spécifiques, des segments de bandes peuvent être en statut secondaire, obligeant à ne pas perturber les services primaires."
+    "explanation": "Dans certaines régions ou selon des accords spécifiques, des segments de bandes peuvent être en statut secondaire, obligeant à ne pas perturber les services primaires.",
+    "points": 5
   },
   {
     "id": "AF_AV_015",
@@ -523,7 +556,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Les titulaires $HB9$ peuvent utiliser les $6~m$ avec une limite de puissance de $100~W$ $PEP$ (Statut secondaire)."
+    "explanation": "Les titulaires $HB9$ peuvent utiliser les $6~m$ avec une limite de puissance de $100~W$ $PEP$ (Statut secondaire).",
+    "points": 5
   },
   {
     "id": "AF_AV_016",
@@ -540,7 +574,8 @@
     ],
     "imageSVG": null,
     "explanation": "À $24~GHz$, le service amateur est en statut secondaire ($b$ dans l'ordonnance), signifiant qu'il ne doit pas causer de brouillage aux services prioritaires.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_018",
@@ -555,7 +590,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Certaines portions de la bande des $13~cm$ ($2,3~GHz$) sont soumises à des restrictions particulières ou des autorisations spécifiques de l'autorité concédante."
+    "explanation": "Certaines portions de la bande des $13~cm$ ($2,3~GHz$) sont soumises à des restrictions particulières ou des autorisations spécifiques de l'autorité concédante.",
+    "points": 5
   },
   {
     "id": "AF_AV_019",
@@ -570,7 +606,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Les applications $ISM/LPD$ (télécommandes) sur $433~MHz$ ont souvent la priorité ou le service amateur doit accepter les perturbations sans en créer aux services officiels."
+    "explanation": "Les applications $ISM/LPD$ (télécommandes) sur $433~MHz$ ont souvent la priorité ou le service amateur doit accepter les perturbations sans en créer aux services officiels.",
+    "points": 5
   },
   {
     "id": "AF_AV_020",
@@ -585,7 +622,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Dans la bande des $23~cm$, la puissance est limitée pour protéger les systèmes de radionavigation par satellite (Galileo)."
+    "explanation": "Dans la bande des $23~cm$, la puissance est limitée pour protéger les systèmes de radionavigation par satellite (Galileo).",
+    "points": 5
   },
   {
     "id": "AF_AV_035",
@@ -602,7 +640,8 @@
     ],
     "imageSVG": null,
     "explanation": "L'adjonction « /MM » est réservée aux stations opérant en haute mer (eaux internationales).",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_036",
@@ -617,7 +656,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "L'adjonction « /AM » signifie « Aeronautical Mobile »."
+    "explanation": "L'adjonction « /AM » signifie « Aeronautical Mobile ».",
+    "points": 5
   },
   {
     "id": "AF_AV_037",
@@ -632,7 +672,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "L'adjonction « /M » signifie « Mobile » et s'applique aux véhicules terrestres et à la navigation intérieure."
+    "explanation": "L'adjonction « /M » signifie « Mobile » et s'applique aux véhicules terrestres et à la navigation intérieure.",
+    "points": 5
   },
   {
     "id": "AF_AV_038",
@@ -647,7 +688,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Pour les lacs et rivières suisses (navigation intérieure), on utilise « /M » et non « /MM »."
+    "explanation": "Pour les lacs et rivières suisses (navigation intérieure), on utilise « /M » et non « /MM ».",
+    "points": 5
   },
   {
     "id": "AF_AV_039",
@@ -664,7 +706,8 @@
     ],
     "imageSVG": null,
     "explanation": "Selon les accords entre la Suisse et le Liechtenstein, un HB9 doit utiliser le préfixe « HB0/ ».",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_040",
@@ -679,7 +722,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Cela indique une opération temporaire d'un licencié suisse dans la Principauté."
+    "explanation": "Cela indique une opération temporaire d'un licencié suisse dans la Principauté.",
+    "points": 5
   },
   {
     "id": "AF_AV_043",
@@ -694,7 +738,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "« /M » désigne soit un véhicule terrestre, soit un bateau en navigation intérieure (lac/rivière)."
+    "explanation": "« /M » désigne soit un véhicule terrestre, soit un bateau en navigation intérieure (lac/rivière).",
+    "points": 5
   },
   {
     "id": "AF_AV_044",
@@ -709,7 +754,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "L'adjonction « /AM » est spécifique aux mobiles aéronautiques."
+    "explanation": "L'adjonction « /AM » est spécifique aux mobiles aéronautiques.",
+    "points": 5
   },
   {
     "id": "AF_AV_045",
@@ -724,7 +770,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "« /MM » est l'abréviation de Maritime Mobile, utilisé uniquement en mer."
+    "explanation": "« /MM » est l'abréviation de Maritime Mobile, utilisé uniquement en mer.",
+    "points": 5
   },
   {
     "id": "AF_AV_047",
@@ -739,7 +786,8 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "En Suisse, la tenue du logbook n'est plus obligatoire par défaut, mais l'OFCOM se réserve le droit de l'exiger sur demande (Art. 35 OGC)."
+    "explanation": "En Suisse, la tenue du logbook n'est plus obligatoire par défaut, mais l'OFCOM se réserve le droit de l'exiger sur demande (Art. 35 OGC).",
+    "points": 5
   },
   {
     "id": "AF_AV_049",
@@ -754,7 +802,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Dans la désignation des émissions, la lettre de l'unité remplace la virgule. $7,00~kHz$ devient $7K00$."
+    "explanation": "Dans la désignation des émissions, la lettre de l'unité remplace la virgule. $7,00~kHz$ devient $7K00$.",
+    "points": 5
   },
   {
     "id": "AF_AV_050",
@@ -769,7 +818,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "La notation correcte est $1K80$ (1 kiloHertz 80)."
+    "explanation": "La notation correcte est $1K80$ (1 kiloHertz 80).",
+    "points": 5
   },
   {
     "id": "AF_AV_051",
@@ -784,7 +834,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Dans la désignation des émissions, l'unité remplace la virgule. $10,4~kHz$ devient donc $10K4$."
+    "explanation": "Dans la désignation des émissions, l'unité remplace la virgule. $10,4~kHz$ devient donc $10K4$.",
+    "points": 5
   },
   {
     "id": "AF_AV_052",
@@ -799,7 +850,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "La notation correcte pour $12,0~MHz$ est $12M0$."
+    "explanation": "La notation correcte pour $12,0~MHz$ est $12M0$.",
+    "points": 5
   },
   {
     "id": "AF_AV_053",
@@ -814,7 +866,8 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "Suivant la même règle, $3,00~MHz$ s'écrit $3M00$."
+    "explanation": "Suivant la même règle, $3,00~MHz$ s'écrit $3M00$.",
+    "points": 5
   },
   {
     "id": "AF_AV_054",
@@ -831,7 +884,8 @@
     ],
     "imageSVG": null,
     "explanation": "Le symbole **A** désigne la modulation d'amplitude avec double bande latérale (ex: A3E).",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_055",
@@ -846,7 +900,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Le symbole **J** désigne spécifiquement la BLU avec porteuse supprimée (ex: J3E)."
+    "explanation": "Le symbole **J** désigne spécifiquement la BLU avec porteuse supprimée (ex: J3E).",
+    "points": 5
   },
   {
     "id": "AF_AV_056",
@@ -861,7 +916,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Le symbole **F** est utilisé pour la modulation de fréquence (ex: F3E)."
+    "explanation": "Le symbole **F** est utilisé pour la modulation de fréquence (ex: F3E).",
+    "points": 5
   },
   {
     "id": "AF_AV_057",
@@ -876,7 +932,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Le symbole **B** désigne les émissions à bandes latérales indépendantes."
+    "explanation": "Le symbole **B** désigne les émissions à bandes latérales indépendantes.",
+    "points": 5
   },
   {
     "id": "AF_AV_058",
@@ -891,7 +948,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Dans la classification à trois caractères, le troisième caractère **A** désigne la télégraphie pour réception auditive."
+    "explanation": "Dans la classification à trois caractères, le troisième caractère **A** désigne la télégraphie pour réception auditive.",
+    "points": 5
   },
   {
     "id": "AF_AV_059",
@@ -906,7 +964,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Le symbole **D** correspond à la transmission de données (Data)."
+    "explanation": "Le symbole **D** correspond à la transmission de données (Data).",
+    "points": 5
   },
   {
     "id": "AF_AV_060",
@@ -921,7 +980,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Le symbole **F** désigne la télévision (vidéo)."
+    "explanation": "Le symbole **F** désigne la télévision (vidéo).",
+    "points": 5
   },
   {
     "id": "AF_AV_061",
@@ -938,7 +998,8 @@
     ],
     "imageSVG": null,
     "explanation": "HF signifie « High Frequency » (Hautes Fréquences), couvrant de $3$ à $30~MHz$.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_062",
@@ -953,7 +1014,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "VHF signifie « Very High Frequency », couvrant de $30$ à $300~MHz$."
+    "explanation": "VHF signifie « Very High Frequency », couvrant de $30$ à $300~MHz$.",
+    "points": 5
   },
   {
     "id": "AF_AV_063",
@@ -968,7 +1030,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "UHF signifie « Ultra High Frequency », couvrant de $300$ à $3000~MHz$ ($3~GHz$)."
+    "explanation": "UHF signifie « Ultra High Frequency », couvrant de $300$ à $3000~MHz$ ($3~GHz$).",
+    "points": 5
   },
   {
     "id": "AF_AV_064",
@@ -983,7 +1046,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "SHF signifie « Super High Frequency », couvrant de $3$ à $30~GHz$."
+    "explanation": "SHF signifie « Super High Frequency », couvrant de $3$ à $30~GHz$.",
+    "points": 5
   },
   {
     "id": "AF_AV_065",
@@ -998,7 +1062,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Il s'agit de la gamme HF."
+    "explanation": "Il s'agit de la gamme HF.",
+    "points": 5
   },
   {
     "id": "AF_AV_066",
@@ -1013,7 +1078,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Il s'agit de la gamme VHF."
+    "explanation": "Il s'agit de la gamme VHF.",
+    "points": 5
   },
   {
     "id": "AF_AV_067",
@@ -1030,7 +1096,8 @@
     ],
     "imageSVG": null,
     "explanation": "UHF signifie « Ultra High Frequency ». Cette gamme correspond aux ondes décimétriques.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_068",
@@ -1045,7 +1112,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "SHF signifie « Super High Frequency », couvrant les fréquences de $3$ à $30~GHz$."
+    "explanation": "SHF signifie « Super High Frequency », couvrant les fréquences de $3$ à $30~GHz$.",
+    "points": 5
   },
   {
     "id": "AF_AV_069",
@@ -1060,7 +1128,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "À $300~MHz$, la longueur d'onde est de $1~m$. À $3000~MHz$ ($3~GHz$), elle est de $10~cm$. On parle donc d'ondes décimétriques."
+    "explanation": "À $300~MHz$, la longueur d'onde est de $1~m$. À $3000~MHz$ ($3~GHz$), elle est de $10~cm$. On parle donc d'ondes décimétriques.",
+    "points": 5
   },
   {
     "id": "AF_AV_070",
@@ -1075,7 +1144,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "$3560~kHz$ ($3,56~MHz$) se situe dans la bande des $80~m$, qui appartient à la gamme HF ($3$ à $30~MHz$)."
+    "explanation": "$3560~kHz$ ($3,56~MHz$) se situe dans la bande des $80~m$, qui appartient à la gamme HF ($3$ à $30~MHz$).",
+    "points": 5
   },
   {
     "id": "AF_AV_071",
@@ -1090,7 +1160,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "$144,5~MHz$ appartient à la gamme VHF ($30$ à $300~MHz$)."
+    "explanation": "$144,5~MHz$ appartient à la gamme VHF ($30$ à $300~MHz$).",
+    "points": 5
   },
   {
     "id": "AF_AV_072",
@@ -1107,7 +1178,8 @@
     ],
     "imageSVG": null,
     "explanation": "A1A désigne la télégraphie par interruption de la porteuse non modulée, pour réception auditive (Morse).",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_073",
@@ -1122,7 +1194,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Le suffixe **B** indique une réception automatique (téléimprimeur / RTTY)."
+    "explanation": "Le suffixe **B** indique une réception automatique (téléimprimeur / RTTY).",
+    "points": 5
   },
   {
     "id": "AF_AV_074",
@@ -1137,7 +1210,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "J3E est le code officiel pour la téléphonie en Bande Latérale Unique (BLU) avec porteuse supprimée."
+    "explanation": "J3E est le code officiel pour la téléphonie en Bande Latérale Unique (BLU) avec porteuse supprimée.",
+    "points": 5
   },
   {
     "id": "AF_AV_075",
@@ -1152,7 +1226,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "R3E est une forme de téléphonie BLU avec porteuse réduite (pilote)."
+    "explanation": "R3E est une forme de téléphonie BLU avec porteuse réduite (pilote).",
+    "points": 5
   },
   {
     "id": "AF_AV_076",
@@ -1167,7 +1242,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "F3E désigne la téléphonie en modulation de fréquence (FM)."
+    "explanation": "F3E désigne la téléphonie en modulation de fréquence (FM).",
+    "points": 5
   },
   {
     "id": "AF_AV_077",
@@ -1182,7 +1258,8 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "C'est la définition complète du mode SSB (Single Side Band) utilisé massivement en HF."
+    "explanation": "C'est la définition complète du mode SSB (Single Side Band) utilisé massivement en HF.",
+    "points": 5
   },
   {
     "id": "AF_AV_078",
@@ -1197,7 +1274,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "L'absence de sous-porteuse et la modulation d'amplitude avec décodage automatique correspondent à A1B."
+    "explanation": "L'absence de sous-porteuse et la modulation d'amplitude avec décodage automatique correspondent à A1B.",
+    "points": 5
   },
   {
     "id": "AF_AV_079",
@@ -1212,7 +1290,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "Modulation de fréquence (F), porteuse directe sans sous-porteuse (1) et réception auditive (A) donnent F1A."
+    "explanation": "Modulation de fréquence (F), porteuse directe sans sous-porteuse (1) et réception auditive (A) donnent F1A.",
+    "points": 5
   },
   {
     "id": "AF_AV_080",
@@ -1227,7 +1306,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "La présence d'une sous-porteuse modulée est désignée par le chiffre 2. L'impression directe par B. Soit F2B."
+    "explanation": "La présence d'une sous-porteuse modulée est désignée par le chiffre 2. L'impression directe par B. Soit F2B.",
+    "points": 5
   },
   {
     "id": "AF_AV_081",
@@ -1242,7 +1322,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "La téléphonie analogique (voix) est toujours désignée par le suffixe E. En FM, c'est F3E."
+    "explanation": "La téléphonie analogique (voix) est toujours désignée par le suffixe E. En FM, c'est F3E.",
+    "points": 5
   },
   {
     "id": "AF_AV_082",
@@ -1257,7 +1338,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Les quatre premiers caractères ($16K0$) indiquent la largeur de bande nécessaire ($16,0~kHz$)."
+    "explanation": "Les quatre premiers caractères ($16K0$) indiquent la largeur de bande nécessaire ($16,0~kHz$).",
+    "points": 5
   },
   {
     "id": "AF_AV_083",
@@ -1274,7 +1356,8 @@
     ],
     "imageSVG": null,
     "explanation": "QRM désigne une interférence causée par une autre station ou une activité humaine.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_084",
@@ -1291,7 +1374,8 @@
     ],
     "imageSVG": null,
     "explanation": "QRN désigne les bruits d'origine naturelle (éclairs, atmosphère).",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_085",
@@ -1306,7 +1390,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "QRO est la demande ou l'avis d'augmenter la puissance."
+    "explanation": "QRO est la demande ou l'avis d'augmenter la puissance.",
+    "points": 5
   },
   {
     "id": "AF_AV_086",
@@ -1321,7 +1406,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "QRP est l'instruction de réduire la puissance (désigne aussi les stations de faible puissance)."
+    "explanation": "QRP est l'instruction de réduire la puissance (désigne aussi les stations de faible puissance).",
+    "points": 5
   },
   {
     "id": "AF_AV_087",
@@ -1338,7 +1424,8 @@
     ],
     "imageSVG": null,
     "explanation": "QRT indique que la station cesse d'émettre ou ferme.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_088",
@@ -1353,7 +1440,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "QRV signifie que vous êtes prêt à opérer ou à recevoir un message."
+    "explanation": "QRV signifie que vous êtes prêt à opérer ou à recevoir un message.",
+    "points": 5
   },
   {
     "id": "AF_AV_089",
@@ -1368,7 +1456,8 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "QRX est utilisé pour demander une attente ou indiquer un rappel ultérieur."
+    "explanation": "QRX est utilisé pour demander une attente ou indiquer un rappel ultérieur.",
+    "points": 5
   },
   {
     "id": "AF_AV_090",
@@ -1383,7 +1472,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "QRZ ? est la question classique pour savoir qui appelle."
+    "explanation": "QRZ ? est la question classique pour savoir qui appelle.",
+    "points": 5
   },
   {
     "id": "AF_AV_091",
@@ -1400,7 +1490,8 @@
     ],
     "imageSVG": null,
     "explanation": "QSB désigne les variations cycliques d'intensité du signal (fading).",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_092",
@@ -1415,7 +1506,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "QSL confirme la réception correcte du message ou du contact."
+    "explanation": "QSL confirme la réception correcte du message ou du contact.",
+    "points": 5
   },
   {
     "id": "AF_AV_093",
@@ -1430,7 +1522,8 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "QSO désigne une communication directe établie entre deux stations."
+    "explanation": "QSO désigne une communication directe établie entre deux stations.",
+    "points": 5
   },
   {
     "id": "AF_AV_094",
@@ -1445,7 +1538,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "QSY est le signal pour changer de fréquence de travail."
+    "explanation": "QSY est le signal pour changer de fréquence de travail.",
+    "points": 5
   },
   {
     "id": "AF_AV_095",
@@ -1460,7 +1554,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "QTH indique l'emplacement géographique de la station (coordonnées ou ville)."
+    "explanation": "QTH indique l'emplacement géographique de la station (coordonnées ou ville).",
+    "points": 5
   },
   {
     "id": "AF_AV_096",
@@ -1475,7 +1570,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "C'est l'inverse de la question AF_AV_083."
+    "explanation": "C'est l'inverse de la question AF_AV_083.",
+    "points": 5
   },
   {
     "id": "AF_AV_097",
@@ -1490,7 +1586,8 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "Le code QRN est spécifique aux parasites naturels."
+    "explanation": "Le code QRN est spécifique aux parasites naturels.",
+    "points": 5
   },
   {
     "id": "AF_AV_098",
@@ -1505,7 +1602,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "QRO (puissance haute) vs QRP (puissance basse)."
+    "explanation": "QRO (puissance haute) vs QRP (puissance basse).",
+    "points": 5
   },
   {
     "id": "AF_AV_099",
@@ -1522,7 +1620,8 @@
     ],
     "imageSVG": null,
     "explanation": "QRP est utilisé pour demander de baisser la puissance ou pour indiquer une station de faible puissance.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_100",
@@ -1537,7 +1636,8 @@
     "correctAnswers": [
       0
     ],
-    "explanation": "QRT signifie la fin de l'émission ou la fermeture de la station."
+    "explanation": "QRT signifie la fin de l'émission ou la fermeture de la station.",
+    "points": 5
   },
   {
     "id": "AF_AV_101",
@@ -1552,7 +1652,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "QRV signifie que la station est prête à opérer ou à recevoir du trafic."
+    "explanation": "QRV signifie que la station est prête à opérer ou à recevoir du trafic.",
+    "points": 5
   },
   {
     "id": "AF_AV_102",
@@ -1567,7 +1668,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "QRX suivi d'une heure indique un rendez-vous ou une attente jusqu'à ce moment."
+    "explanation": "QRX suivi d'une heure indique un rendez-vous ou une attente jusqu'à ce moment.",
+    "points": 5
   },
   {
     "id": "AF_AV_103",
@@ -1582,7 +1684,8 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "QRZ ? est la question « Qui m'appelle ? ». QRZ HB9XYZ est l'avis que HB9XYZ appelle."
+    "explanation": "QRZ ? est la question « Qui m'appelle ? ». QRZ HB9XYZ est l'avis que HB9XYZ appelle.",
+    "points": 5
   },
   {
     "id": "AF_AV_104",
@@ -1599,7 +1702,8 @@
     ],
     "imageSVG": null,
     "explanation": "QSB désigne le fading, une variation cyclique ou aléatoire de l'intensité du signal reçu.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_105",
@@ -1614,7 +1718,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "QSL confirme que le message a été bien reçu et compris."
+    "explanation": "QSL confirme que le message a été bien reçu et compris.",
+    "points": 5
   },
   {
     "id": "AF_AV_106",
@@ -1629,7 +1734,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "QSO désigne une communication bilatérale établie entre deux stations."
+    "explanation": "QSO désigne une communication bilatérale établie entre deux stations.",
+    "points": 5
   },
   {
     "id": "AF_AV_107",
@@ -1644,7 +1750,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "UR est l'abréviation de « Your » (votre/vos) en langage radio."
+    "explanation": "UR est l'abréviation de « Your » (votre/vos) en langage radio.",
+    "points": 5
   },
   {
     "id": "AF_AV_108",
@@ -1659,7 +1766,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "RX est l'abréviation universelle pour le récepteur (Receiver)."
+    "explanation": "RX est l'abréviation universelle pour le récepteur (Receiver).",
+    "points": 5
   },
   {
     "id": "AF_AV_109",
@@ -1676,7 +1784,8 @@
     ],
     "imageSVG": null,
     "explanation": "Le rapport RST permet de juger la lisibilité (R), la force (S) et la tonalité (T) du signal.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_110",
@@ -1691,7 +1800,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "TX est l'abréviation universelle pour l'émetteur (Transmitter)."
+    "explanation": "TX est l'abréviation universelle pour l'émetteur (Transmitter).",
+    "points": 5
   },
   {
     "id": "AF_AV_111",
@@ -1706,7 +1816,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "L'alphabet phonétique de l'OACI est la norme internationale pour l'épellation radio."
+    "explanation": "L'alphabet phonétique de l'OACI est la norme internationale pour l'épellation radio.",
+    "points": 5
   },
   {
     "id": "AF_AV_112",
@@ -1721,7 +1832,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "Épellation correcte : Foxtrot, Oscar, X-ray, Tango, Romeo, Oscar, Tango, Tango."
+    "explanation": "Épellation correcte : Foxtrot, Oscar, X-ray, Tango, Romeo, Oscar, Tango, Tango.",
+    "points": 5
   },
   {
     "id": "AF_AV_113",
@@ -1736,7 +1848,8 @@
     "correctAnswers": [
       3
     ],
-    "explanation": "Épellation OACI : Whiskey, Hotel, India, Sierra, Kilo, Echo, Yankee."
+    "explanation": "Épellation OACI : Whiskey, Hotel, India, Sierra, Kilo, Echo, Yankee.",
+    "points": 5
   },
   {
     "id": "AF_AV_114",
@@ -1751,7 +1864,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "Épellation OACI : Charlie, Hotel, Alpha, Romeo, Lima, India, Echo."
+    "explanation": "Épellation OACI : Charlie, Hotel, Alpha, Romeo, Lima, India, Echo.",
+    "points": 5
   },
   {
     "id": "AF_AV_115",
@@ -1766,7 +1880,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "L'épellation correcte selon l'alphabet OACI est : Oscar, Lima, Tango, Echo, November."
+    "explanation": "L'épellation correcte selon l'alphabet OACI est : Oscar, Lima, Tango, Echo, November.",
+    "points": 5
   },
   {
     "id": "AF_AV_116",
@@ -1783,7 +1898,8 @@
     ],
     "imageSVG": null,
     "explanation": "Chaque lettre correspond à un mot standardisé pour éviter les confusions phonétiques.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_117",
@@ -1800,7 +1916,8 @@
     ],
     "imageSVG": null,
     "explanation": "L'importateur direct assume la responsabilité légale de la conformité de l'appareil aux normes suisses et européennes.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   },
   {
     "id": "AF_AV_118",
@@ -1815,7 +1932,8 @@
     "correctAnswers": [
       1
     ],
-    "explanation": "En achetant localement, la responsabilité de la mise sur le marché (conformité) repose sur le vendeur suisse."
+    "explanation": "En achetant localement, la responsabilité de la mise sur le marché (conformité) repose sur le vendeur suisse.",
+    "points": 5
   },
   {
     "id": "AF_AV_119",
@@ -1830,7 +1948,8 @@
     "correctAnswers": [
       2
     ],
-    "explanation": "La liste noire de l'OFCOM s'applique à tous. Un licencié ne peut pas contourner l'interdiction d'utiliser du matériel jugé non conforme."
+    "explanation": "La liste noire de l'OFCOM s'applique à tous. Un licencié ne peut pas contourner l'interdiction d'utiliser du matériel jugé non conforme.",
+    "points": 5
   },
   {
     "id": "AF_AV_120",
@@ -1847,6 +1966,7 @@
     ],
     "imageSVG": null,
     "explanation": "L'autorisation HB3 est limitée à l'exploitation de matériel industriel certifié. Les constructions personnelles sont réservées aux HB9.",
-    "imageBase64": null
+    "imageBase64": null,
+    "points": 5
   }
 ]
