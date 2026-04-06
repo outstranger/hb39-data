@@ -182,7 +182,7 @@
   {
     "id": "AF_AV_028",
     "theme": "Prescriptions",
-    "text": "Question AF_AV_028 : Une installation de radioamateur peut-elle être exploitée dans un aéronef ?",
+    "text": "Une installation de radioamateur peut-elle être exploitée dans un aéronef ?",
     "options": [
       "Oui, sans condition",
       "Non, c'est strictement interdit",
