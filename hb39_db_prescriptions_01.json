@@ -306,10 +306,10 @@
       "Oui, mais d'autres usagers des radiocommunications peuvent utiliser la fréquence en priorité"
     ],
     "correctAnswers": [
-      3
+      2
     ],
     "imageSVG": null,
-    "explanation": "Sur cette fréquence, le service amateur est secondaire, ce qui signifie qu'il ne doit pas causer de brouillages aux services primaires.",
+    "explanation": "Sur cette fréquence, le service amateur est primaire.",
     "imageBase64": null,
     "points": 5
   },
