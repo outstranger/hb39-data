@@ -620,7 +620,7 @@
       "Une concession d'essai de radiocommunication supplémentaire doit être demandée à l'OFCOM"
     ],
     "correctAnswers": [
-      1
+      0
     ],
     "explanation": "Dans la bande des $23~cm$, la puissance est limitée pour protéger les systèmes de radionavigation par satellite (Galileo).",
     "points": 5
