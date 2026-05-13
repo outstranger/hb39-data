@@ -794,7 +794,7 @@
   {
     "id": "TB511",
     "theme": "Antennes et Propagation",
-    "text": "Une antenne Yagi avec un gain de 12,15 dBi est alimentée directement avec une puissance de 250 W. Quelle est la valeur du champ électrique en espace libre à une distance de 30 m ?",
+    "text": "Une antenne Yagi avec un gain de 12,15 dBi (*=10dBd) est alimentée directement avec une puissance de 250 W. Quelle est la valeur du champ électrique en espace libre à une distance de 30 m ?",
     "options": [
       "353 V/m",
       "11,8 V/m",
