@@ -1144,7 +1144,7 @@
       "Lignes de champ magnétique."
     ],
     "correctAnswers": [
-      3
+      2
     ],
     "explanation": "Autour d'un conducteur vertical traversé par un courant (comme une antenne verticale), le champ magnétique forme des lignes de force circulaires et concentriques dans le plan horizontal.",
     "points": 5,
@@ -1828,7 +1828,7 @@
       "Transistor, MOSFET, ampli opérationnel, tube."
     ],
     "correctAnswers": [
-      3
+      1
     ],
     "explanation": "Une diode à semiconducteur (ou varicap) est un composant passif/non-amplificateur. Seuls les transistors (bipolaires, MOSFET), les tubes à vide et les amplificateurs opérationnels sont des composants actifs capables d'amplifier un signal.",
     "points": 5,
