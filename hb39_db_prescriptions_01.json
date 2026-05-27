@@ -538,9 +538,9 @@
       "La bande ne peut être utilisée qu'avec une autorisation de l'OFCOM"
     ],
     "correctAnswers": [
-      1
+      0
     ],
-    "explanation": "Dans certaines régions ou selon des accords spécifiques, des segments de bandes peuvent être en statut secondaire, obligeant à ne pas perturber les services primaires.",
+    "explanation": "Selon Art. 6 - OOUS du 27.10.2025, aucune restriction.",
     "points": 5
   },
   {
