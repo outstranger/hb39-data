@@ -1172,7 +1172,7 @@
   {
     "id": "TB920",
     "theme": "Lignes et Antennes",
-    "text": "Il entre 100 W dans un.ne de transmission adaptée. À l’autre extrémité, coté antenne, la puissance est de 50 W, avec un ROS de 1. Quelle est l’atténuation du câble ?",
+    "text": "Il entre 100 W dans une ligne de transmission adaptée. À l’autre extrémité, coté antenne, la puissance est de 50 W, avec un ROS de 1. Quelle est l’atténuation du câble ?",
     "options": [
       "6 dBm",
       "3 dB",
