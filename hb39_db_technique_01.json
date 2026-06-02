@@ -1216,7 +1216,7 @@
       "D)"
     ],
     "correctAnswers": [
-      1
+      2
     ],
     "explanation": "Pour mesurer correctement les paramètres permettant de déduire une résistance (Loi d'Ohm : $R = \\frac{U}{I}$), l'ampèremètre doit être branché en série avec la résistance (pour mesurer le courant qui la traverse) et le voltmètre en parallèle avec celle-ci (pour mesurer la chute de tension).",
     "points": 5,
