@@ -1820,15 +1820,15 @@
   {
     "id": "TC528",
     "theme": "Composants & Circuits",
-    "text": "Question TC528",
+    "text": "Dans lequel des circuits suivants (à gauche) la diode est-elle correctement utilisée pour limiter la tension d’un étage de commutation ?  ",
     "options": [
       "A)",
-      "C)",
       "B)",
+      "C)",
       "D)"
     ],
     "correctAnswers": [
-      0
+      2
     ],
     "explanation": "La structure exacte de la question n'est pas présente dans le texte brut, mais il s'agit de reconnaître une configuration de circuit hacheur ou d'alimentation à découpage.",
     "points": 5,
