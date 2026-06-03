@@ -2342,7 +2342,7 @@
   {
     "id": "TJ836",
     "theme": "Mesures & Composants",
-    "text": "Une enveloppe modulée s'affiche sur un oscilloscope, avec une graduation verticale de 50 V/div. Sachant que l'impédance de la ligne est de 50 ohms, quelle est la puissance d'enveloppe de crête (PEP) de l'émetteur ?",
+    "text": "L’oscillogramme suivant montre un signal HF à deux tons en sortie d’un émetteur BLU, tel que mesuré par un oscilloscope de bande passante suffisante au moyen d’une sonde 2:1 connectée directement sur l’antenne fictive 50Ω. Quelle est la puissance de sortie PEP de l’émetteur?" ,
     "options": [
       "36,0 W",
       "400 W",
